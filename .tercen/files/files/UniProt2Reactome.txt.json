@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "files/UniProt2Reactome.txt",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "UniProt2Reactome.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "12",
+ "dataUri": "lfs/7d/2d/a253eb8b1eaf6cfd028ae700cb561658e1aed30808cb6f333b3ff53e30f6",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 40030073
+}
