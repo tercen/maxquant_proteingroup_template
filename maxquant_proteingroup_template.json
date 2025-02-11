@@ -4534,7 +4534,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 430.82408142089844,
-     "y": 490.5
+     "y": 485.5
     }
    },
    "state": {
@@ -5011,9 +5011,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8b31f36",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -5263,7 +5263,7 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 86.0,
+     "cellSize": 66.0,
      "offset": 122,
      "graphicalFactors": [
       {
@@ -5330,7 +5330,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d57c1042-5ee1-4147-9eb9-ddaa68256c59"
+    "id": "e44c4c25-b4cf-458e-bec9-5a14d6300ef1"
    },
    "parentDataStepId": ""
   },
@@ -8590,7 +8590,7 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37de0bab7",
+    "taskId": "2f47d9ff13911ab52779eeb37de5f117",
     "taskState": {
      "kind": "DoneState"
     }
@@ -8853,8 +8853,8 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 30.25,
-     "offset": 17,
+     "cellSize": 13.666666666666666,
+     "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
@@ -8867,8 +8867,29 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 105.0,
+         "x": 254.0,
          "y": 0.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "data..Gene names",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 160.0,
+         "y": 30.0
         },
         "topLeft": {
          "kind": "Point",
@@ -8879,13 +8900,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 159
+     "nRows": 3344
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "CompositeRelation",
-    "id": "380fd517-24fe-41a5-9bff-9c1a4325576d",
+    "id": "590cad07-1170-44e1-a9fb-b8a10894c0b2",
     "joinOperators": [
      {
       "kind": "JoinOperator",
@@ -8897,14 +8918,14 @@
       },
       "rightRelation": {
        "kind": "SimpleRelation",
-       "id": "cc114d3e0dc0210984907197cc05aa1699cf9e8c9600c06f44133302b629da55",
+       "id": "10dfbb11f59e6d45ec8896f70e53adc0d0e534823c379be092fd41478cc78b95",
        "index": 0
       }
      }
     ],
     "mainRelation": {
      "kind": "Relation",
-     "id": "93dbcf42-2f6d-4507-9136-c9691393493e"
+     "id": "19316bd1-3ecf-4173-9064-e7f6121148a8"
     }
    },
    "parentDataStepId": ""

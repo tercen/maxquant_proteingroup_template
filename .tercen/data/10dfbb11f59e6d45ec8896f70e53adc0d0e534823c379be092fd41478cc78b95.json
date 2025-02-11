@@ -1,6 +1,6 @@
 {
  "kind": "ComputedTableSchema",
- "id": "cc114d3e0dc0210984907197cc05aa1699cf9e8c9600c06f44133302b629da55",
+ "id": "10dfbb11f59e6d45ec8896f70e53adc0d0e534823c379be092fd41478cc78b95",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "cc114d3e0dc0210984907197cc05aa1699cf9e8c9600c06f44133302b629da55"
+   "value": "10dfbb11f59e6d45ec8896f70e53adc0d0e534823c379be092fd41478cc78b95"
   }
  ],
  "url": {
@@ -35,11 +35,11 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "nRows": 1,
+ "nRows": 2,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "d3f29edb-1e96-4488-ab3f-d37f10d8529c",
+   "id": "86298c6d-331f-4a32-8059-80ab7c991921",
    "name": "ds2.filename",
    "type": "string",
    "nRows": 0,
@@ -54,7 +54,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "32ab246f-0933-4e47-869b-b208029a6e10",
+   "id": "88006b69-2798-4030-91cd-9e5935872f93",
    "name": "ds2.mimetype",
    "type": "string",
    "nRows": 0,
@@ -69,7 +69,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c1a8bed7-b8e2-4f82-8420-ac9aca21fb90",
+   "id": "ba1d8f10-0e19-409b-9985-e0c73feb3d03",
    "name": ".content",
    "type": "string",
    "nRows": 0,
@@ -83,16 +83,16 @@
    }
   }
  ],
- "dataDirectory": "data/cc/11/cc114d3e0dc0210984907197cc05aa1699cf9e8c9600c06f44133302b629da55",
+ "dataDirectory": "data/10/df/10dfbb11f59e6d45ec8896f70e53adc0d0e534823c379be092fd41478cc78b95",
  "relation": {
   "kind": "Relation",
-  "id": "75ec3990-6b3e-4bdf-8e9b-08d79392fd12"
+  "id": "641f7e34-3157-46ef-bedb-037b8c1201f9"
  },
  "query": {
   "kind": "CubeQuery",
   "relation": {
    "kind": "CompositeRelation",
-   "id": "1533c267-13ca-415c-8f82-873c44424842",
+   "id": "e331da10-f76c-414c-a6b2-bf0fd5e101a9",
    "joinOperators": [
     {
      "kind": "JoinOperator",
@@ -108,10 +108,10 @@
      },
      "rightRelation": {
       "kind": "RenameRelation",
-      "id": "2fa1ada1-32b6-450d-b0c4-1bd4d28e86b0",
+      "id": "d2aa0a69-88ed-472c-80ec-9b051ad930a4",
       "relation": {
        "kind": "CompositeRelation",
-       "id": "7fba2461-460c-4e6c-89b3-bd89ad9b5033",
+       "id": "43cf1f3c-80a2-487f-8c55-07c58b77c97f",
        "joinOperators": [
         {
          "kind": "JoinOperator",
@@ -169,7 +169,7 @@
    ],
    "mainRelation": {
     "kind": "CompositeRelation",
-    "id": "4d1b934c-a369-4133-9f48-a250881f6da7",
+    "id": "42edc7a5-9cf7-45a9-97e9-15a737808215",
     "joinOperators": [
      {
       "kind": "JoinOperator",
@@ -185,10 +185,10 @@
       },
       "rightRelation": {
        "kind": "RenameRelation",
-       "id": "dbc1f5c1-80dd-48ca-9b92-4b6697808ae7",
+       "id": "bc4fe49d-5667-45e4-92aa-5350fe41bb4b",
        "relation": {
         "kind": "RenameRelation",
-        "id": "ae3305d6-1e91-4e4c-8d53-4f7c096b12b4",
+        "id": "c9a01d8d-85a8-48a6-a3fd-01ba07e3209f",
         "relation": {
          "kind": "SimpleRelation",
          "id": "a805c0579b238c5cd35d97e1eb0a4b97f50a5212fe50dc42cea778b8035269c4",
@@ -236,7 +236,7 @@
     ],
     "mainRelation": {
      "kind": "CompositeRelation",
-     "id": "d8922498-b7dc-4b93-82b5-31cad6157bb2",
+     "id": "408f2df0-d11b-4173-b2a8-08fa0f12e28e",
      "joinOperators": [
       {
        "kind": "JoinOperator",
@@ -252,10 +252,10 @@
        },
        "rightRelation": {
         "kind": "RenameRelation",
-        "id": "82775c5d-44d8-4de9-ab39-b241b9671074",
+        "id": "0548736f-dd96-4872-8dbe-695badca5d7f",
         "relation": {
          "kind": "CompositeRelation",
-         "id": "c2cd6943-9cb2-4c20-965a-79489b1ce125",
+         "id": "0c52c273-68cb-4b3d-8c76-58283c65848b",
          "joinOperators": [
           {
            "kind": "JoinOperator",
@@ -321,7 +321,7 @@
      ],
      "mainRelation": {
       "kind": "RenameRelation",
-      "id": "b19bb99b-b2c2-47d6-a5ed-06ffaecb12fe",
+      "id": "7976846d-eeac-4b90-a129-830d7e017822",
       "relation": {
        "kind": "SimpleRelation",
        "id": "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7",
@@ -352,6 +352,11 @@
    {
     "kind": "Factor",
     "name": "enrich..pathway",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "data..Gene names",
     "type": "string"
    }
   ],

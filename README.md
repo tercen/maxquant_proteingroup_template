@@ -4,13 +4,13 @@ A pipeline for the analysis of MaxQuant Protein Group file
 
 # Files
 
-* measurement file
-* sample_annotation file
+* `proteinGroups.txt` measurement file
+* `sample_annotation.csv` file
 
 # Preprocessing
 
 * log2
-* remove empty proteins
+* remove proteins with zero values
 
 # Differential Analysis
 
@@ -19,8 +19,12 @@ A pipeline for the analysis of MaxQuant Protein Group file
 
 # Biological Analysis
 
-Reactome Pathways
-Download
+Reactome Pathways Download
 https://reactome.org/download/current/UniProt2Reactome.txt
 
 * GSEA
+
+# Export
+
+* Limma Results
+* Pathway NES Results
