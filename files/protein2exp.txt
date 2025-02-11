@@ -1,0 +1,67 @@
+Gene	Astrocyte	Neuron	Paper
+Abcf1			Abcf1
+Acp6			Acp6
+Acsbg2			Acsbg2
+Akr1b7	TRUE		*Akr1b7
+Ankrd6	TRUE	TRUE	*#Ankrd6
+Art1			Art1
+Arpc5			Arpc5
+Bax			Bax
+Bcl2113			Bcl2113
+Calb2		TRUE	#Calb2
+Chmp5			Chmp5
+Chtop			Chtop
+Copp1		TRUE	#Copp1
+Crispld2			Crispld2
+Dldgap3	TRUE	TRUE	*#Dldgap3
+Dinm2			Dinm2
+Dtymk			Dtymk
+Eif2s2			Eif2s2
+Emc8		TRUE	#Emc8
+F5			F5
+Gabarap1l			Gabarap1l
+Gap43		TRUE	#Gap43
+Gng2		TRUE	#Gng2
+Gng7		TRUE	#Gng7
+Gnnza	TRUE	TRUE	*#Gnnza
+Haghl			Haghl
+Hdac6	TRUE	TRUE	*#Hdac6
+Hdlbp	TRUE	TRUE	*#Hdlbp
+Hexa			Hexa
+Hmgb3			Hmgb3
+Hook3			Hook3
+Lds			Lds
+ltfg1			ltfg1
+Jam3			Jam3
+Jup		TRUE	#Jup
+Kathbl			Kathbl
+Lhpp			Lhpp
+Lsm12			Lsm12
+Mark4			Mark4
+Mgst3		TRUE	#Mgst3
+Miet1			Miet1
+Nup85			Nup85
+Pak7		TRUE	#Pak7
+Plcxd3	TRUE	TRUE	*#Plcxd3
+Prrt2		TRUE	#Prrt2
+Rab27b		TRUE	#Rab27b
+Rad54b		TRUE	#Rad54b
+Rnps1			Rnps1
+Rps26		TRUE	#Rps26
+Rps27l			Rps27l
+Slc39a6		TRUE	#Slc39a6
+Slirp			Slirp
+Smarca2		TRUE	#Smarca2
+Smyd5			Smyd5
+Sncg			Sncg
+Snx15			Snx15
+Sphk2		TRUE	#Sphk2
+Stk39			Stk39
+Tagln			Tagln
+Tceal3			Tceal3
+Tceal5			Tceal5
+Tmsb10			Tmsb10
+Thrc18			Thrc18
+Uros			Uros
+Vps26a		TRUE	#Vps26a
+Zc3havi			Zc3havi

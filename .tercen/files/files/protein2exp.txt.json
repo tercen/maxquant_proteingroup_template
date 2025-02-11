@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "files/protein2exp.txt",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "protein2exp.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "9",
+ "dataUri": "lfs/27/3d/a3aaa143ed8cbea00ed0671673716f908066dff049ed250625d6eb2a4e35",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 1191
+}

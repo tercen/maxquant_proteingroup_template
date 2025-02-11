@@ -1,0 +1,1018 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "e063edb0-f172-1310-a346-39b686b21b43",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 3972,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "9615a70a-be49-43ca-83d1-b3e114ecde9e",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6c2b20fd-a740-4dc1-80bb-1c02b42fab4a",
+   "name": "diff.contrast",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6516e5e3-ffa2-45a3-86dd-f51ecc966cdf",
+   "name": "diff.logFC",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "45b4b8a8-1b86-4662-b569-e95131a766c6",
+   "name": "diff.AveExpr",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3c71fd41-c589-4f28-af5d-fdf79bd8ca83",
+   "name": "diff.t",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7849b2cb-b5cb-403b-9e7d-329357b7ff82",
+   "name": "diff.p.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "73f5df40-aa92-4cd9-9442-3e858a1c2b18",
+   "name": "diff.logp",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0a835747-c743-4022-b59c-41347c597032",
+   "name": "diff.p.rank",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "43158ba3-756e-4b84-8f79-6ab419304813",
+   "name": "diff.data..SuperGroup",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/d5/06/d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175",
+ "relation": {
+  "kind": "Relation",
+  "id": "1662add6-ce68-4dd0-9764-83ec66fd37ed"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "fa6bfbf4-99ad-4346-804e-c6b23567566e",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "preproc..Experiment",
+       "preproc..SuperGroup",
+       "preproc..Group",
+       "preproc..variable",
+       "preproc..Protein IDs",
+       "Gene names"
+      ],
+      "rColumns": [
+       "preproc..Experiment",
+       "preproc..SuperGroup",
+       "preproc..Group",
+       "preproc..variable",
+       "preproc..Protein IDs",
+       "Gene names"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "0e6b0893-ded8-46de-831a-b54c98459b5e",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "89429d56-2ece-4cac-9cab-f754ff113707",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7",
+          "index": 10
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "CompositeRelation",
+        "id": "0b8e6358-8236-47d0-acf6-24fee7fa9d5d",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674",
+           "index": 9
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6",
+         "index": 8
+        }
+       }
+      },
+      "inNames": [
+       "data.identity",
+       ".ci",
+       ".ri",
+       "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6._rids",
+       "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6.tlbId",
+       "preproc..Experiment",
+       "preproc..SuperGroup",
+       "preproc..Group",
+       "preproc..variable",
+       "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674._rids",
+       "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674.tlbId",
+       "preproc..Protein IDs",
+       "Gene names",
+       "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids",
+       "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7.tlbId",
+       "preproc..Experiment",
+       "preproc..SuperGroup",
+       "preproc..Group",
+       "preproc..variable",
+       "preproc..Protein IDs",
+       "Gene names"
+      ],
+      "outNames": [
+       "data.identity",
+       ".ci",
+       ".ri",
+       "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6._rids",
+       "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6.tlbId",
+       "preproc..Experiment",
+       "preproc..SuperGroup",
+       "preproc..Group",
+       "preproc..variable",
+       "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674._rids",
+       "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674.tlbId",
+       "preproc..Protein IDs",
+       "Gene names",
+       "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids",
+       "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7.tlbId",
+       "data..Experiment",
+       "data..SuperGroup",
+       "data..Group",
+       "data..variable",
+       "data..Protein IDs",
+       "data..Gene names"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "2f345277-d1b2-4ee4-9b10-099efe03e585",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "sample.Experiment",
+        "sample.SuperGroup",
+        "sample.Group",
+        "log2..variable",
+        "log2..Protein IDs"
+       ],
+       "rColumns": [
+        "sample.Experiment",
+        "sample.SuperGroup",
+        "sample.Group",
+        "log2..variable",
+        "log2..Protein IDs"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "eb7bdbc0-0d4f-44da-92f9-4ef322b68d38",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "3ba4da52-1aa7-4f37-9f6a-032a864778de",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ri"
+           ],
+           "rColumns": [
+            "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6",
+           "index": 7
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "CompositeRelation",
+         "id": "73193aeb-209e-499d-8138-565628e9dd5f",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ci"
+            ],
+            "rColumns": [
+             "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac",
+            "index": 6
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "SimpleRelation",
+          "id": "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54",
+          "index": 5
+         }
+        }
+       },
+       "inNames": [
+        "preproc.identity",
+        ".ci",
+        ".ri",
+        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54._rids",
+        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54.tlbId",
+        "sample.Experiment",
+        "sample.SuperGroup",
+        "sample.Group",
+        "log2..variable",
+        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac._rids",
+        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac.tlbId",
+        "log2..Protein IDs",
+        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6._rids",
+        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6.tlbId",
+        "sample.Experiment",
+        "sample.SuperGroup",
+        "sample.Group",
+        "log2..variable",
+        "log2..Protein IDs"
+       ],
+       "outNames": [
+        "preproc.identity",
+        ".ci",
+        ".ri",
+        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54._rids",
+        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54.tlbId",
+        "sample.Experiment",
+        "sample.SuperGroup",
+        "sample.Group",
+        "log2..variable",
+        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac._rids",
+        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac.tlbId",
+        "log2..Protein IDs",
+        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6._rids",
+        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6.tlbId",
+        "preproc..Experiment",
+        "preproc..SuperGroup",
+        "preproc..Group",
+        "preproc..variable",
+        "preproc..Protein IDs"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "87918b81-c5fe-4705-b068-eb9c62e4f4a8",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "LFQ.variable",
+         "Protein IDs"
+        ],
+        "rColumns": [
+         "LFQ.variable",
+         "Protein IDs"
+        ]
+       },
+       "rightRelation": {
+        "kind": "RenameRelation",
+        "id": "83c6a291-6ee0-4a37-b672-729d59612d06",
+        "relation": {
+         "kind": "CompositeRelation",
+         "id": "f39461a7-67ea-44d4-9645-74b8735a8d55",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ri"
+            ],
+            "rColumns": [
+             "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec",
+            "index": 4
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "CompositeRelation",
+          "id": "a0c0fe3b-34c1-4b2c-82c9-1df602dadfdb",
+          "joinOperators": [
+           {
+            "kind": "JoinOperator",
+            "joinType": "leftOuter",
+            "leftPair": {
+             "kind": "ColumnPair",
+             "lColumns": [
+              ".ci"
+             ],
+             "rColumns": [
+              "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1._rids"
+             ]
+            },
+            "rightRelation": {
+             "kind": "SimpleRelation",
+             "id": "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1",
+             "index": 3
+            }
+           }
+          ],
+          "mainRelation": {
+           "kind": "SimpleRelation",
+           "id": "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27",
+           "index": 2
+          }
+         }
+        },
+        "inNames": [
+         ".ri",
+         ".ci",
+         "log2.logTransformed",
+         "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27._rids",
+         "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27.tlbId",
+         "LFQ.variable",
+         "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1._rids",
+         "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1.tlbId",
+         "Protein IDs",
+         "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec._rids",
+         "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec.tlbId",
+         "LFQ.variable",
+         "Protein IDs"
+        ],
+        "outNames": [
+         ".ri",
+         ".ci",
+         "log2.logTransformed",
+         "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27._rids",
+         "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27.tlbId",
+         "LFQ.variable",
+         "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1._rids",
+         "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1.tlbId",
+         "Protein IDs",
+         "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec._rids",
+         "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec.tlbId",
+         "log2..variable",
+         "log2..Protein IDs"
+        ]
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "CompositeRelation",
+      "id": "771dc274-6f3a-494d-aa52-8b0c7dfd2aff",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "r.o.f",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          "LFQ.variable"
+         ],
+         "rColumns": [
+          "sample.Colnames"
+         ]
+        },
+        "rightRelation": {
+         "kind": "RenameRelation",
+         "id": "d77005e5-e596-4d4a-adc7-3b59d7d91af8",
+         "relation": {
+          "kind": "RenameRelation",
+          "id": "17640c19-3faf-42a8-87d7-56121b070937",
+          "relation": {
+           "kind": "SimpleRelation",
+           "id": "8fd47c2de59a98cccf52ef114fb1ac6b2135ec57be37a0e3c95771021501fa40",
+           "index": 1
+          },
+          "inNames": [
+           "Colnames",
+           "PhenoType",
+           "Construct",
+           "Replicates",
+           "SuperGroup",
+           "Group",
+           "revGroup",
+           "Experiment",
+           "8fd47c2de59a98cccf52ef114fb1ac6b2135ec57be37a0e3c95771021501fa40._rids"
+          ],
+          "outNames": [
+           "Colnames",
+           "PhenoType",
+           "Construct",
+           "Replicates",
+           "SuperGroup",
+           "Group",
+           "revGroup",
+           "Experiment",
+           "rowId"
+          ]
+         },
+         "inNames": [
+          "Colnames",
+          "PhenoType",
+          "Construct",
+          "Replicates",
+          "SuperGroup",
+          "Group",
+          "revGroup",
+          "Experiment",
+          "rowId"
+         ],
+         "outNames": [
+          "sample.Colnames",
+          "sample.PhenoType",
+          "sample.Construct",
+          "sample.Replicates",
+          "sample.SuperGroup",
+          "sample.Group",
+          "sample.revGroup",
+          "sample.Experiment",
+          "sample.rowId"
+         ]
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "GatherRelation",
+       "id": "b5c1b0b0-9716-46a7-9d42-06198b82a1fb",
+       "relation": {
+        "kind": "RenameRelation",
+        "id": "29a5a55f-a734-4cc1-bd3a-3c80a6db1a92",
+        "relation": {
+         "kind": "SimpleRelation",
+         "id": "f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5",
+         "index": 0
+        },
+        "inNames": [
+         "Protein IDs",
+         "Majority protein IDs",
+         "Peptide counts (all)",
+         "Peptide counts (razor+unique)",
+         "Peptide counts (unique)",
+         "Protein names",
+         "Gene names",
+         "Fasta headers",
+         "Number of proteins",
+         "Peptides",
+         "Razor + unique peptides",
+         "Unique peptides",
+         "Peptides KO_BioID_1",
+         "Peptides KO_BioID_2",
+         "Peptides KO_BioID_3",
+         "Peptides KO_GFP_1",
+         "Peptides KO_GFP_2",
+         "Peptides KO_GFP_3",
+         "Peptides WT_BioID_1",
+         "Peptides WT_BioID_2",
+         "Peptides WT_BioID_3",
+         "Peptides WT_GFP_1",
+         "Peptides WT_GFP_2",
+         "Peptides WT_GFP_3",
+         "Razor + unique peptides KO_BioID_1",
+         "Razor + unique peptides KO_BioID_2",
+         "Razor + unique peptides KO_BioID_3",
+         "Razor + unique peptides KO_GFP_1",
+         "Razor + unique peptides KO_GFP_2",
+         "Razor + unique peptides KO_GFP_3",
+         "Razor + unique peptides WT_BioID_1",
+         "Razor + unique peptides WT_BioID_2",
+         "Razor + unique peptides WT_BioID_3",
+         "Razor + unique peptides WT_GFP_1",
+         "Razor + unique peptides WT_GFP_2",
+         "Razor + unique peptides WT_GFP_3",
+         "Unique peptides KO_BioID_1",
+         "Unique peptides KO_BioID_2",
+         "Unique peptides KO_BioID_3",
+         "Unique peptides KO_GFP_1",
+         "Unique peptides KO_GFP_2",
+         "Unique peptides KO_GFP_3",
+         "Unique peptides WT_BioID_1",
+         "Unique peptides WT_BioID_2",
+         "Unique peptides WT_BioID_3",
+         "Unique peptides WT_GFP_1",
+         "Unique peptides WT_GFP_2",
+         "Unique peptides WT_GFP_3",
+         "Sequence coverage [%]",
+         "Unique + razor sequence coverage [%]",
+         "Unique sequence coverage [%]",
+         "Mol. weight [kDa]",
+         "Sequence length",
+         "Sequence lengths",
+         "Q-value",
+         "Score",
+         "Sequence coverage KO_BioID_1 [%]",
+         "Sequence coverage KO_BioID_2 [%]",
+         "Sequence coverage KO_BioID_3 [%]",
+         "Sequence coverage KO_GFP_1 [%]",
+         "Sequence coverage KO_GFP_2 [%]",
+         "Sequence coverage KO_GFP_3 [%]",
+         "Sequence coverage WT_BioID_1 [%]",
+         "Sequence coverage WT_BioID_2 [%]",
+         "Sequence coverage WT_BioID_3 [%]",
+         "Sequence coverage WT_GFP_1 [%]",
+         "Sequence coverage WT_GFP_2 [%]",
+         "Sequence coverage WT_GFP_3 [%]",
+         "Intensity",
+         "Intensity KO_BioID_1",
+         "Intensity KO_BioID_2",
+         "Intensity KO_BioID_3",
+         "Intensity KO_GFP_1",
+         "Intensity KO_GFP_2",
+         "Intensity KO_GFP_3",
+         "Intensity WT_BioID_1",
+         "Intensity WT_BioID_2",
+         "Intensity WT_BioID_3",
+         "Intensity WT_GFP_1",
+         "Intensity WT_GFP_2",
+         "Intensity WT_GFP_3",
+         "LFQ intensity KO_BioID_1",
+         "LFQ intensity KO_BioID_2",
+         "LFQ intensity KO_BioID_3",
+         "LFQ intensity KO_GFP_1",
+         "LFQ intensity KO_GFP_2",
+         "LFQ intensity KO_GFP_3",
+         "LFQ intensity WT_BioID_1",
+         "LFQ intensity WT_BioID_2",
+         "LFQ intensity WT_BioID_3",
+         "LFQ intensity WT_GFP_1",
+         "LFQ intensity WT_GFP_2",
+         "LFQ intensity WT_GFP_3",
+         "MS/MS count KO_BioID_1",
+         "MS/MS count KO_BioID_2",
+         "MS/MS count KO_BioID_3",
+         "MS/MS count KO_GFP_1",
+         "MS/MS count KO_GFP_2",
+         "MS/MS count KO_GFP_3",
+         "MS/MS count WT_BioID_1",
+         "MS/MS count WT_BioID_2",
+         "MS/MS count WT_BioID_3",
+         "MS/MS count WT_GFP_1",
+         "MS/MS count WT_GFP_2",
+         "MS/MS count WT_GFP_3",
+         "MS/MS count",
+         "Peptide sequences",
+         "Only identified by site",
+         "Reverse",
+         "Potential contaminant",
+         "id",
+         "Peptide IDs",
+         "Peptide is razor",
+         "Mod. peptide IDs",
+         "Evidence IDs",
+         "MS/MS IDs",
+         "Best MS/MS",
+         "Oxidation (M) site IDs",
+         "Oxidation (M) site positions",
+         "Taxonomy IDs",
+         "f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5._rids"
+        ],
+        "outNames": [
+         "Protein IDs",
+         "Majority protein IDs",
+         "Peptide counts (all)",
+         "Peptide counts (razor+unique)",
+         "Peptide counts (unique)",
+         "Protein names",
+         "Gene names",
+         "Fasta headers",
+         "Number of proteins",
+         "Peptides",
+         "Razor + unique peptides",
+         "Unique peptides",
+         "Peptides KO_BioID_1",
+         "Peptides KO_BioID_2",
+         "Peptides KO_BioID_3",
+         "Peptides KO_GFP_1",
+         "Peptides KO_GFP_2",
+         "Peptides KO_GFP_3",
+         "Peptides WT_BioID_1",
+         "Peptides WT_BioID_2",
+         "Peptides WT_BioID_3",
+         "Peptides WT_GFP_1",
+         "Peptides WT_GFP_2",
+         "Peptides WT_GFP_3",
+         "Razor + unique peptides KO_BioID_1",
+         "Razor + unique peptides KO_BioID_2",
+         "Razor + unique peptides KO_BioID_3",
+         "Razor + unique peptides KO_GFP_1",
+         "Razor + unique peptides KO_GFP_2",
+         "Razor + unique peptides KO_GFP_3",
+         "Razor + unique peptides WT_BioID_1",
+         "Razor + unique peptides WT_BioID_2",
+         "Razor + unique peptides WT_BioID_3",
+         "Razor + unique peptides WT_GFP_1",
+         "Razor + unique peptides WT_GFP_2",
+         "Razor + unique peptides WT_GFP_3",
+         "Unique peptides KO_BioID_1",
+         "Unique peptides KO_BioID_2",
+         "Unique peptides KO_BioID_3",
+         "Unique peptides KO_GFP_1",
+         "Unique peptides KO_GFP_2",
+         "Unique peptides KO_GFP_3",
+         "Unique peptides WT_BioID_1",
+         "Unique peptides WT_BioID_2",
+         "Unique peptides WT_BioID_3",
+         "Unique peptides WT_GFP_1",
+         "Unique peptides WT_GFP_2",
+         "Unique peptides WT_GFP_3",
+         "Sequence coverage [%]",
+         "Unique + razor sequence coverage [%]",
+         "Unique sequence coverage [%]",
+         "Mol. weight [kDa]",
+         "Sequence length",
+         "Sequence lengths",
+         "Q-value",
+         "Score",
+         "Sequence coverage KO_BioID_1 [%]",
+         "Sequence coverage KO_BioID_2 [%]",
+         "Sequence coverage KO_BioID_3 [%]",
+         "Sequence coverage KO_GFP_1 [%]",
+         "Sequence coverage KO_GFP_2 [%]",
+         "Sequence coverage KO_GFP_3 [%]",
+         "Sequence coverage WT_BioID_1 [%]",
+         "Sequence coverage WT_BioID_2 [%]",
+         "Sequence coverage WT_BioID_3 [%]",
+         "Sequence coverage WT_GFP_1 [%]",
+         "Sequence coverage WT_GFP_2 [%]",
+         "Sequence coverage WT_GFP_3 [%]",
+         "Intensity",
+         "Intensity KO_BioID_1",
+         "Intensity KO_BioID_2",
+         "Intensity KO_BioID_3",
+         "Intensity KO_GFP_1",
+         "Intensity KO_GFP_2",
+         "Intensity KO_GFP_3",
+         "Intensity WT_BioID_1",
+         "Intensity WT_BioID_2",
+         "Intensity WT_BioID_3",
+         "Intensity WT_GFP_1",
+         "Intensity WT_GFP_2",
+         "Intensity WT_GFP_3",
+         "LFQ intensity KO_BioID_1",
+         "LFQ intensity KO_BioID_2",
+         "LFQ intensity KO_BioID_3",
+         "LFQ intensity KO_GFP_1",
+         "LFQ intensity KO_GFP_2",
+         "LFQ intensity KO_GFP_3",
+         "LFQ intensity WT_BioID_1",
+         "LFQ intensity WT_BioID_2",
+         "LFQ intensity WT_BioID_3",
+         "LFQ intensity WT_GFP_1",
+         "LFQ intensity WT_GFP_2",
+         "LFQ intensity WT_GFP_3",
+         "MS/MS count KO_BioID_1",
+         "MS/MS count KO_BioID_2",
+         "MS/MS count KO_BioID_3",
+         "MS/MS count KO_GFP_1",
+         "MS/MS count KO_GFP_2",
+         "MS/MS count KO_GFP_3",
+         "MS/MS count WT_BioID_1",
+         "MS/MS count WT_BioID_2",
+         "MS/MS count WT_BioID_3",
+         "MS/MS count WT_GFP_1",
+         "MS/MS count WT_GFP_2",
+         "MS/MS count WT_GFP_3",
+         "MS/MS count",
+         "Peptide sequences",
+         "Only identified by site",
+         "Reverse",
+         "Potential contaminant",
+         "id",
+         "Peptide IDs",
+         "Peptide is razor",
+         "Mod. peptide IDs",
+         "Evidence IDs",
+         "MS/MS IDs",
+         "Best MS/MS",
+         "Oxidation (M) site IDs",
+         "Oxidation (M) site positions",
+         "Taxonomy IDs",
+         "rowId"
+        ]
+       },
+       "names": [
+        "LFQ intensity KO_BioID_1",
+        "LFQ intensity KO_BioID_2",
+        "LFQ intensity KO_BioID_3",
+        "LFQ intensity KO_GFP_1",
+        "LFQ intensity KO_GFP_2",
+        "LFQ intensity KO_GFP_3",
+        "LFQ intensity WT_BioID_1",
+        "LFQ intensity WT_BioID_2",
+        "LFQ intensity WT_BioID_3",
+        "LFQ intensity WT_GFP_1",
+        "LFQ intensity WT_GFP_2",
+        "LFQ intensity WT_GFP_3"
+       ],
+       "valueName": "LFQ.value",
+       "variableName": "LFQ.variable",
+       "valueType": "double",
+       "gatherType": ""
+      }
+     }
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "data..SuperGroup",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "data..Protein IDs",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "data.identity",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "sample.revGroup",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [
+     {
+      "kind": "Factor",
+      "name": "data..variable",
+      "type": "string"
+     }
+    ],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "diff",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "LIMMA PSA",
+    "version": "0.0.1",
+    "operatorId": "6",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/pamgene/limma_psa_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "preferred.run.ctx",
+     "value": ""
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "kind": "TableSchema",
+ "id": "81b256274412abcc93d9c0c846c2c0488360808555f36525c5e2e883261b3f8f",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "protein2exp.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "81b256274412abcc93d9c0c846c2c0488360808555f36525c5e2e883261b3f8f"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "7",
+ "nRows": 66,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "51e29ff4-e46c-4a3c-8228-09a57c091669",
+   "name": "Gene",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7d40fa30-68db-45d2-b2eb-f024f19ea20e",
+   "name": "Astrocyte",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9659f78c-a04a-4fc1-becb-ae6eff9415bf",
+   "name": "Neuron",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d955bea1-23ca-45c7-97a3-5eb9caa612f8",
+   "name": "Paper",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/81/b2/81b256274412abcc93d9c0c846c2c0488360808555f36525c5e2e883261b3f8f",
+ "relation": {
+  "kind": "Relation",
+  "id": "07d8599a-5882-4275-b014-5475c8272c6f"
+ }
+}

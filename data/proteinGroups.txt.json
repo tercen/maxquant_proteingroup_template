@@ -1,0 +1,1846 @@
+{
+ "kind": "TableSchema",
+ "id": "f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "proteinGroups.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "7",
+ "nRows": 3337,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "13364209-734d-4dd8-897b-dd92590ebc9d",
+   "name": "Protein IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6d9ffd6c-7831-4b44-a17d-03d8b473ce98",
+   "name": "Majority protein IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "567d1019-d616-43a5-bd5c-48b422141a37",
+   "name": "Peptide counts (all)",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "21d72cb6-8aa9-4896-a57d-6a92feb0db41",
+   "name": "Peptide counts (razor+unique)",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5fc462ea-4ff5-4168-9cda-d6545e2b0ea9",
+   "name": "Peptide counts (unique)",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0249c548-4870-48f2-9819-3d782b6f5270",
+   "name": "Protein names",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "38c5f8ca-e1c8-4e6b-a55e-01c2a117c7b9",
+   "name": "Gene names",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2350ef98-9727-4f26-a1cf-4cf52d80ceb1",
+   "name": "Fasta headers",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e18e84ad-4d23-43c3-8e67-4789542f822e",
+   "name": "Number of proteins",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "36ca94d5-f4c2-4e05-8751-0cfefe037974",
+   "name": "Peptides",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2ffb4e29-b025-4d62-8d1c-c202f292639d",
+   "name": "Razor + unique peptides",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "17deacdd-8738-4cf2-aa1e-cad83e77f416",
+   "name": "Unique peptides",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4df9b741-0c7c-48ae-b028-256d917cc585",
+   "name": "Peptides KO_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "17c57bcc-9fac-49a1-8975-e645902f53e8",
+   "name": "Peptides KO_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "93105cf4-1e83-4fd4-8827-7623e3fdb8ba",
+   "name": "Peptides KO_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d5a2de6d-27f7-484f-b76e-7420801ca153",
+   "name": "Peptides KO_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "323645e6-272d-4f4d-a266-11a19ac83dc0",
+   "name": "Peptides KO_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d074b34c-2a0f-462c-b5ec-9e29e642045b",
+   "name": "Peptides KO_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7d1b4e04-e311-4864-9e2f-35e93a3294dc",
+   "name": "Peptides WT_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9279e77d-2276-4d35-b41d-a88ac38f7eca",
+   "name": "Peptides WT_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7690457b-b7aa-482c-b003-97c5e0e914a0",
+   "name": "Peptides WT_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "8644cc52-20e5-4ead-bb49-ae47436170f7",
+   "name": "Peptides WT_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5527d35a-1b86-4b09-b8e8-d8e8e9315311",
+   "name": "Peptides WT_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4919f61f-07ee-41a5-bd3b-2ccbc539c910",
+   "name": "Peptides WT_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "07c3d748-f512-47a3-a789-45d8b1289443",
+   "name": "Razor + unique peptides KO_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "708e5e75-3377-43b3-8315-3d5e7e113757",
+   "name": "Razor + unique peptides KO_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "68f4813d-1530-4d5b-9305-7e1422d5226a",
+   "name": "Razor + unique peptides KO_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "32b80d20-7b24-4e85-9744-ef2b81738ba7",
+   "name": "Razor + unique peptides KO_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "83dba0f4-8415-4977-9446-c0caf9c949c0",
+   "name": "Razor + unique peptides KO_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "21babab2-384e-49c1-95f3-045ac12e3421",
+   "name": "Razor + unique peptides KO_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fcf6d92f-5c57-41e8-8f61-8431ae8ac504",
+   "name": "Razor + unique peptides WT_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7712c8ad-11df-462a-9ef8-150464004c74",
+   "name": "Razor + unique peptides WT_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a845d3cc-f463-42b4-82cf-e4a6426dfaf9",
+   "name": "Razor + unique peptides WT_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7d509032-e339-46b6-9286-0461db3f86cd",
+   "name": "Razor + unique peptides WT_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "cb276853-9213-45f2-9bd9-7cecf9f90c05",
+   "name": "Razor + unique peptides WT_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "74784ce9-2f65-4511-bab2-72db64170a31",
+   "name": "Razor + unique peptides WT_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9e97ccf0-0d0f-4e10-a83a-e4efd925e614",
+   "name": "Unique peptides KO_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "20387ab1-e7a6-402f-9211-d37c309c3e27",
+   "name": "Unique peptides KO_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6a0d5d10-96ef-428a-988e-691c13eb4da3",
+   "name": "Unique peptides KO_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "deca0a6c-31bd-47f9-8e24-243a5d5e8ca3",
+   "name": "Unique peptides KO_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "400f525c-948d-4070-83ae-e39bf3c2b4b5",
+   "name": "Unique peptides KO_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ed6371a0-0c57-46ab-a57f-bceb90b54603",
+   "name": "Unique peptides KO_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d1c893aa-46c6-46b5-856c-26cbc073f3fa",
+   "name": "Unique peptides WT_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2aaa36be-c98c-47f0-9f10-8d7674836ceb",
+   "name": "Unique peptides WT_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e795278f-62e3-4b49-801d-08c5a1d5f0bc",
+   "name": "Unique peptides WT_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0c0c939c-6982-4e3c-93c8-86a56a3f21f3",
+   "name": "Unique peptides WT_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a9fbb5d5-b860-4ae9-b931-f9bab837bbc4",
+   "name": "Unique peptides WT_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "37e3a37b-a608-4a4a-b273-38b274004870",
+   "name": "Unique peptides WT_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b54d6f8d-8983-4b81-95b9-25d2263ca188",
+   "name": "Sequence coverage [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "59c14fa8-cb34-4678-8887-f382ab4d4ef0",
+   "name": "Unique + razor sequence coverage [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "148017f1-eeb9-42cd-947b-b6291b0ff684",
+   "name": "Unique sequence coverage [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ee2cb404-bfad-4f8e-9ca7-5ab5e7f207d1",
+   "name": "Mol. weight [kDa]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7c4c4fbb-2b67-4904-81e6-3e001bff60c6",
+   "name": "Sequence length",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "728d21c5-258e-487d-bfce-5586e2dff4a6",
+   "name": "Sequence lengths",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6303e36f-dc5d-4859-8edb-8f7844d56cad",
+   "name": "Q-value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5a802407-e201-44f7-afa9-91f91cc72be8",
+   "name": "Score",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "dece9972-1c13-4e7f-a3d3-c8a219ff6b5e",
+   "name": "Sequence coverage KO_BioID_1 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "30aed661-69d1-4892-9862-f87c6a87630e",
+   "name": "Sequence coverage KO_BioID_2 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "65e3942a-92b0-4c17-b518-2e048493e2d4",
+   "name": "Sequence coverage KO_BioID_3 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "db64220c-3629-4252-89fc-c587ee767a61",
+   "name": "Sequence coverage KO_GFP_1 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c3a48549-7ee4-4866-b379-991d3b60bfd5",
+   "name": "Sequence coverage KO_GFP_2 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b429d4b2-0556-4219-92e9-e18e478ee9b4",
+   "name": "Sequence coverage KO_GFP_3 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "39334270-4a66-446a-84e8-1dd9eb702c3e",
+   "name": "Sequence coverage WT_BioID_1 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e7af31cf-4fc4-435f-a339-5b55bbc2ef2c",
+   "name": "Sequence coverage WT_BioID_2 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b3334cc5-f3c0-429f-8720-d3e8f78a4480",
+   "name": "Sequence coverage WT_BioID_3 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "27fc2a56-e538-40c5-8280-ee3eefe87436",
+   "name": "Sequence coverage WT_GFP_1 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "923fa786-404b-4468-882f-7c31f1dd76b9",
+   "name": "Sequence coverage WT_GFP_2 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "137a94d2-e231-4a79-83b5-9902e70cdda4",
+   "name": "Sequence coverage WT_GFP_3 [%]",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e84e71aa-946a-4568-b09f-bcec3855d01b",
+   "name": "Intensity",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5e77068a-c097-4b72-9562-6438a05be9e9",
+   "name": "Intensity KO_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "2b523636-8bf9-4b64-9f35-f5ef4c3a36ea",
+   "name": "Intensity KO_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "67e1d9a1-e835-4fe6-86c6-dc23d6687eb7",
+   "name": "Intensity KO_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "57b632e7-d57a-44ca-9281-4945e0985522",
+   "name": "Intensity KO_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c4230793-1809-4bc8-80f0-8bded8731756",
+   "name": "Intensity KO_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "64a43c02-16d9-4a2e-a6a1-bf54e0d551d9",
+   "name": "Intensity KO_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d15e0287-219d-44a7-bbee-8e6c2c9fe691",
+   "name": "Intensity WT_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "33a65079-0ef1-4990-add6-0c5c5485c989",
+   "name": "Intensity WT_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fad59da7-ce68-449e-a6df-8a4e1dd349c4",
+   "name": "Intensity WT_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d8832db9-1c9b-462c-be06-9827ffbda39c",
+   "name": "Intensity WT_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0b246f33-25ad-469a-8139-a376553ab653",
+   "name": "Intensity WT_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "47a40622-efe2-473b-9621-24c339e882cf",
+   "name": "Intensity WT_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c18c45f5-db78-486b-b1b1-7afc0e7715e0",
+   "name": "LFQ intensity KO_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e494f0b4-84e8-43b9-91fc-07870062b6b3",
+   "name": "LFQ intensity KO_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "790a978c-7049-438d-8029-4f62e955420d",
+   "name": "LFQ intensity KO_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1712b18f-adc4-4a36-86d4-33ed6a5fc265",
+   "name": "LFQ intensity KO_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d41cb0a1-cac4-4585-9b99-d91ff2e2db49",
+   "name": "LFQ intensity KO_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9fa67a78-5660-49bb-8051-4bc944260ad3",
+   "name": "LFQ intensity KO_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "af9b753e-900a-4e08-9233-a6c022b7e25b",
+   "name": "LFQ intensity WT_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a46e5eea-c53d-4e25-9875-c8c924cfb4d8",
+   "name": "LFQ intensity WT_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d47c8b0f-a083-4708-ac9a-dafc1d65f963",
+   "name": "LFQ intensity WT_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "007757d9-6c6d-43c2-bbc4-d564f4b1353c",
+   "name": "LFQ intensity WT_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9eebc33c-f97b-482d-89e6-0395b348cd0f",
+   "name": "LFQ intensity WT_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f6c90119-9748-4045-80dd-d663e02b0935",
+   "name": "LFQ intensity WT_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b42ecd1f-491e-49cc-b0cd-9283decff0dc",
+   "name": "MS/MS count KO_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7889f67b-def5-423c-9fac-8683e8226415",
+   "name": "MS/MS count KO_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f36249c1-d68b-426d-a17e-fedebf902425",
+   "name": "MS/MS count KO_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3bdc5c84-a53b-4383-8ce4-5b2a196191ec",
+   "name": "MS/MS count KO_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "8bf20739-0083-435a-aa8d-7aa59ab60edd",
+   "name": "MS/MS count KO_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "32c9f238-1066-4f67-a40c-c2484a61cc2a",
+   "name": "MS/MS count KO_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3de3c129-1d67-4835-97a1-2233f6febd71",
+   "name": "MS/MS count WT_BioID_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c9b04718-6814-4a00-a0f8-b119ef883152",
+   "name": "MS/MS count WT_BioID_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "685d23e4-4271-4a83-a359-f820eaba7c24",
+   "name": "MS/MS count WT_BioID_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b56b7c70-22a7-444b-8fa3-10a9b32abee2",
+   "name": "MS/MS count WT_GFP_1",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0926c858-ca1c-4fd0-8705-1c053d0cbb97",
+   "name": "MS/MS count WT_GFP_2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e4992abf-546d-47b4-a072-c0db7f01ef66",
+   "name": "MS/MS count WT_GFP_3",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "74091762-534f-4226-bdb7-70091142bbfe",
+   "name": "MS/MS count",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "8a3896c2-eb0c-426d-bd1e-b25aba2c265a",
+   "name": "Peptide sequences",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "236885d8-bd62-4d97-aea3-1f0ab215e5ba",
+   "name": "Only identified by site",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e36eb4d9-3d4c-4d6f-8224-2dbd91948f6a",
+   "name": "Reverse",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "26cd86cd-4e9c-4f48-8054-5d16339601e7",
+   "name": "Potential contaminant",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "89a8ab61-29fa-476e-b84d-8fe3b50ccb61",
+   "name": "id",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "dc1e9ccd-b207-4e1d-977f-18f918c1c8dc",
+   "name": "Peptide IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "93f47fd4-597a-4662-92fb-babda0e18a85",
+   "name": "Peptide is razor",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d09cdcb9-d058-4b32-9048-ca6fa7d7c487",
+   "name": "Mod. peptide IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "29245da9-3c61-41e0-81fb-23789835110f",
+   "name": "Evidence IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "f2a7b49f-13ea-46c1-ac6f-2493cc95d119",
+   "name": "MS/MS IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "59d4513f-bad1-4df2-84a6-ac81222e0174",
+   "name": "Best MS/MS",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "58024649-6ef0-4ed3-81bd-5e5606e1fc7c",
+   "name": "Oxidation (M) site IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d60fc928-be0a-4218-96e7-c6622e1bc6ff",
+   "name": "Oxidation (M) site positions",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bf51cee4-f694-4011-961d-baaeeeebfaa5",
+   "name": "Taxonomy IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/f9/58/f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5",
+ "relation": {
+  "kind": "Relation",
+  "id": "bb02ebd1-e08f-460a-8227-fc5fc6d29afb"
+ }
+}

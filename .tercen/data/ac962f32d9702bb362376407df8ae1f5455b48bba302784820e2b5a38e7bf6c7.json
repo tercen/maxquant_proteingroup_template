@@ -1,0 +1,133 @@
+{
+ "kind": "CubeQueryTableSchema",
+ "id": "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "row",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "Gene names.size_in_bytes",
+   "value": "28480"
+  },
+  {
+   "kind": "Pair",
+   "key": "preproc..Protein IDs.size_in_bytes",
+   "value": "32528"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1986,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "6d2951a8-5b3f-47f2-ab90-48c6fd59bf4e",
+   "name": "preproc..Protein IDs",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e5fd6d35-3084-4c39-bbec-3c1a0f3cc11f",
+   "name": "Gene names",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/ac/96/ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7",
+ "relation": {
+  "kind": "Relation",
+  "id": "e95777b0-85e4-4b89-9f16-ad564930efaf"
+ },
+ "queryHash": "2c4778432439d69ab21ce5f9d8b16e94",
+ "queryTableType": "row",
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "Relation",
+   "id": "4a9bc344-ac0a-4624-9b14-7805dc398063"
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "",
+    "version": "",
+    "operatorId": "",
+    "operatorKind": "",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

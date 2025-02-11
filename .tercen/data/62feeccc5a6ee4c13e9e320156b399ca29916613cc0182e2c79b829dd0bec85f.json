@@ -1,0 +1,113 @@
+{
+ "kind": "CubeQueryTableSchema",
+ "id": "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "row",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "path.pathway.size_in_bytes",
+   "value": "39808"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 879,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "eb202dd9-373d-4d17-9808-eb0c8e839b19",
+   "name": "path.pathway",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/62/fe/62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f",
+ "relation": {
+  "kind": "Relation",
+  "id": "7792e2ab-5e6c-46ef-9294-0bb8b18022f4"
+ },
+ "queryHash": "2c4778432439d69ab21ce5f9d8b2de5f",
+ "queryTableType": "row",
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "Relation",
+   "id": "ae5004cb-e5f7-4dd6-9d22-13aad8a7ba70"
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "",
+    "version": "",
+    "operatorId": "",
+    "operatorKind": "",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": ""
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

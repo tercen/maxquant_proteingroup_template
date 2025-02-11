@@ -1,0 +1,448 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "07e6f4a0-f190-1310-a346-39b686b21b43",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 159,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "f49084ad-14d7-4445-88fe-8c68f3dddbf4",
+   "name": "enrich.pval",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bdf5e98c-94c8-479f-9ce9-16a7d1dc1b88",
+   "name": "enrich.padj",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bf75de16-300c-4c2c-93f0-7f12495bb031",
+   "name": "enrich.ES",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "84aec5b8-ffdb-4fdc-bb14-c03cac6c5a5e",
+   "name": "enrich.NES",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3ab1e190-c8e9-4fc3-b780-b54d62683a44",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/eb/af/ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab",
+ "relation": {
+  "kind": "Relation",
+  "id": "9c6234db-bd69-41a1-8245-1b4dd42b28cc"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "2ff3450d-c26c-4252-b03e-0607442148f7",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "r.o.f",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "data..Protein IDs"
+      ],
+      "rColumns": [
+       "path.uniprotID"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "81e8cfcb-0a07-4cdd-ad7a-5e40073ea59e",
+      "relation": {
+       "kind": "RenameRelation",
+       "id": "db3739e3-9db1-4875-a3ca-57e77bf72b2f",
+       "relation": {
+        "kind": "SimpleRelation",
+        "id": "a805c0579b238c5cd35d97e1eb0a4b97f50a5212fe50dc42cea778b8035269c4",
+        "index": 3
+       },
+       "inNames": [
+        "uniprotID",
+        "reactomeID",
+        "url",
+        "pathway",
+        "evidence",
+        "organism",
+        "a805c0579b238c5cd35d97e1eb0a4b97f50a5212fe50dc42cea778b8035269c4._rids"
+       ],
+       "outNames": [
+        "uniprotID",
+        "reactomeID",
+        "url",
+        "pathway",
+        "evidence",
+        "organism",
+        "rowId"
+       ]
+      },
+      "inNames": [
+       "uniprotID",
+       "reactomeID",
+       "url",
+       "pathway",
+       "evidence",
+       "organism",
+       "rowId"
+      ],
+      "outNames": [
+       "path.uniprotID",
+       "path.reactomeID",
+       "path.url",
+       "path.pathway",
+       "path.evidence",
+       "path.organism",
+       "path.rowId"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "3674efd4-a398-45b9-b15c-e155d52b8606",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "data..Protein IDs"
+       ],
+       "rColumns": [
+        "data..Protein IDs"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "8d6934a7-9f03-4666-9f4c-e3cecb9657cd",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "92c0b18b-9814-4893-8fbf-45ff7ffdfdd3",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ri"
+           ],
+           "rColumns": [
+            "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc",
+           "index": 2
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175",
+         "index": 1
+        }
+       },
+       "inNames": [
+        ".ri",
+        "diff.contrast",
+        "diff.logFC",
+        "diff.AveExpr",
+        "diff.t",
+        "diff.p.value",
+        "diff.logp",
+        "diff.p.rank",
+        "diff.data..SuperGroup",
+        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175._rids",
+        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175.tlbId",
+        "data..Protein IDs",
+        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc._rids",
+        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc.tlbId",
+        "data..Protein IDs"
+       ],
+       "outNames": [
+        ".ri",
+        "diff.contrast",
+        "diff.logFC",
+        "diff.AveExpr",
+        "diff.t",
+        "diff.p.value",
+        "diff.logp",
+        "diff.p.rank",
+        "diff.data..SuperGroup",
+        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175._rids",
+        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175.tlbId",
+        "data..Protein IDs",
+        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc._rids",
+        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc.tlbId",
+        "diff..Protein IDs"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "RenameRelation",
+     "id": "4aff7943-f1dd-450e-85ac-670feabcc174",
+     "relation": {
+      "kind": "SimpleRelation",
+      "id": "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7",
+      "index": 0
+     },
+     "inNames": [
+      "preproc..Protein IDs",
+      "Gene names",
+      "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids",
+      "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7.tlbId",
+      "preproc..Protein IDs",
+      "Gene names"
+     ],
+     "outNames": [
+      "preproc..Protein IDs",
+      "Gene names",
+      "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids",
+      "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7.tlbId",
+      "data..Protein IDs",
+      "data..Gene names"
+     ]
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "data..Protein IDs",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "path.pathway",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "diff.logFC",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "and",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "supergroup1",
+       "factor": {
+        "kind": "Factor",
+        "name": "diff.data..SuperGroup",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "diff.data..SuperGroup1"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "enrich",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "GSEA",
+    "version": "1.0.3",
+    "operatorId": "2",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "min_size",
+      "value": "10"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "max_size",
+      "value": "500"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "-1"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/gsea_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "preferred.run.ctx",
+     "value": ""
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

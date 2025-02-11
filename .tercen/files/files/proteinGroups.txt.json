@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "files/proteinGroups.txt",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "proteinGroups.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "9",
+ "dataUri": "lfs/d5/dd/9bbc23a54be245010d6f4ca6eaf53e73952f89a352fea5d094ac62ea5fb7",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 5425283
+}

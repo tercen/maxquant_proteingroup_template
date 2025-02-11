@@ -1,0 +1,13 @@
+Colnames;PhenoType;Construct;Replicates;SuperGroup;Group;revGroup;Experiment
+LFQ intensity KO_BioID_1;KO;BioID;rep1;supergroup1;treatment;control;OCD
+LFQ intensity KO_BioID_2;KO;BioID;rep2;supergroup1;treatment;control;OCD
+LFQ intensity KO_BioID_3;KO;BioID;rep3;supergroup1;treatment;control;OCD
+LFQ intensity KO_GFP_1;KO;GFP;rep1;supergroup2;treatment;control;OCD
+LFQ intensity KO_GFP_2;KO;GFP;rep2;supergroup2;treatment;control;OCD
+LFQ intensity KO_GFP_3;KO;GFP;rep3;supergroup2;treatment;control;OCD
+LFQ intensity WT_BioID_1;WT;BioID;rep1;supergroup1;control;treatment;OCD
+LFQ intensity WT_BioID_2;WT;BioID;rep2;supergroup1;control;treatment;OCD
+LFQ intensity WT_BioID_3;WT;BioID;rep3;supergroup1;control;treatment;OCD
+LFQ intensity WT_GFP_1;WT;GFP;rep1;supergroup2;control;treatment;OCD
+LFQ intensity WT_GFP_2;WT;GFP;rep2;supergroup2;control;treatment;OCD
+LFQ intensity WT_GFP_3;WT;GFP;rep3;supergroup2;control;treatment;OCD
