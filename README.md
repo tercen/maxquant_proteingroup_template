@@ -22,6 +22,8 @@ A pipeline for the analysis of MaxQuant Protein Group file
 Reactome Pathways Download
 https://reactome.org/download/current/UniProt2Reactome.txt
 
+make sure to name uniprot ID column `uniprotID`
+
 * GSEA
 
 # Export

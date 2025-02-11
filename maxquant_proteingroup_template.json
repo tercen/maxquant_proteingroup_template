@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "11",
+ "id": "10",
  "isDeleted": false,
  "rev": "",
  "description": "",
@@ -229,274 +229,24 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 160.69707489013672,
-     "y": 131.5
+     "x": 139.69707489013672,
+     "y": 147.5
     }
    },
    "state": {
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Select a data set.",
    "model": {
     "kind": "TableStepModel",
     "relation": {
-     "kind": "RenameRelation",
-     "id": "rename_2c4778432439d69ab21ce5f9d840358d",
-     "relation": {
-      "kind": "SimpleRelation",
-      "id": "f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5",
-      "index": 0
-     },
-     "inNames": [
-      "Protein IDs",
-      "Majority protein IDs",
-      "Peptide counts (all)",
-      "Peptide counts (razor+unique)",
-      "Peptide counts (unique)",
-      "Protein names",
-      "Gene names",
-      "Fasta headers",
-      "Number of proteins",
-      "Peptides",
-      "Razor + unique peptides",
-      "Unique peptides",
-      "Peptides KO_BioID_1",
-      "Peptides KO_BioID_2",
-      "Peptides KO_BioID_3",
-      "Peptides KO_GFP_1",
-      "Peptides KO_GFP_2",
-      "Peptides KO_GFP_3",
-      "Peptides WT_BioID_1",
-      "Peptides WT_BioID_2",
-      "Peptides WT_BioID_3",
-      "Peptides WT_GFP_1",
-      "Peptides WT_GFP_2",
-      "Peptides WT_GFP_3",
-      "Razor + unique peptides KO_BioID_1",
-      "Razor + unique peptides KO_BioID_2",
-      "Razor + unique peptides KO_BioID_3",
-      "Razor + unique peptides KO_GFP_1",
-      "Razor + unique peptides KO_GFP_2",
-      "Razor + unique peptides KO_GFP_3",
-      "Razor + unique peptides WT_BioID_1",
-      "Razor + unique peptides WT_BioID_2",
-      "Razor + unique peptides WT_BioID_3",
-      "Razor + unique peptides WT_GFP_1",
-      "Razor + unique peptides WT_GFP_2",
-      "Razor + unique peptides WT_GFP_3",
-      "Unique peptides KO_BioID_1",
-      "Unique peptides KO_BioID_2",
-      "Unique peptides KO_BioID_3",
-      "Unique peptides KO_GFP_1",
-      "Unique peptides KO_GFP_2",
-      "Unique peptides KO_GFP_3",
-      "Unique peptides WT_BioID_1",
-      "Unique peptides WT_BioID_2",
-      "Unique peptides WT_BioID_3",
-      "Unique peptides WT_GFP_1",
-      "Unique peptides WT_GFP_2",
-      "Unique peptides WT_GFP_3",
-      "Sequence coverage [%]",
-      "Unique + razor sequence coverage [%]",
-      "Unique sequence coverage [%]",
-      "Mol. weight [kDa]",
-      "Sequence length",
-      "Sequence lengths",
-      "Q-value",
-      "Score",
-      "Sequence coverage KO_BioID_1 [%]",
-      "Sequence coverage KO_BioID_2 [%]",
-      "Sequence coverage KO_BioID_3 [%]",
-      "Sequence coverage KO_GFP_1 [%]",
-      "Sequence coverage KO_GFP_2 [%]",
-      "Sequence coverage KO_GFP_3 [%]",
-      "Sequence coverage WT_BioID_1 [%]",
-      "Sequence coverage WT_BioID_2 [%]",
-      "Sequence coverage WT_BioID_3 [%]",
-      "Sequence coverage WT_GFP_1 [%]",
-      "Sequence coverage WT_GFP_2 [%]",
-      "Sequence coverage WT_GFP_3 [%]",
-      "Intensity",
-      "Intensity KO_BioID_1",
-      "Intensity KO_BioID_2",
-      "Intensity KO_BioID_3",
-      "Intensity KO_GFP_1",
-      "Intensity KO_GFP_2",
-      "Intensity KO_GFP_3",
-      "Intensity WT_BioID_1",
-      "Intensity WT_BioID_2",
-      "Intensity WT_BioID_3",
-      "Intensity WT_GFP_1",
-      "Intensity WT_GFP_2",
-      "Intensity WT_GFP_3",
-      "LFQ intensity KO_BioID_1",
-      "LFQ intensity KO_BioID_2",
-      "LFQ intensity KO_BioID_3",
-      "LFQ intensity KO_GFP_1",
-      "LFQ intensity KO_GFP_2",
-      "LFQ intensity KO_GFP_3",
-      "LFQ intensity WT_BioID_1",
-      "LFQ intensity WT_BioID_2",
-      "LFQ intensity WT_BioID_3",
-      "LFQ intensity WT_GFP_1",
-      "LFQ intensity WT_GFP_2",
-      "LFQ intensity WT_GFP_3",
-      "MS/MS count KO_BioID_1",
-      "MS/MS count KO_BioID_2",
-      "MS/MS count KO_BioID_3",
-      "MS/MS count KO_GFP_1",
-      "MS/MS count KO_GFP_2",
-      "MS/MS count KO_GFP_3",
-      "MS/MS count WT_BioID_1",
-      "MS/MS count WT_BioID_2",
-      "MS/MS count WT_BioID_3",
-      "MS/MS count WT_GFP_1",
-      "MS/MS count WT_GFP_2",
-      "MS/MS count WT_GFP_3",
-      "MS/MS count",
-      "Peptide sequences",
-      "Only identified by site",
-      "Reverse",
-      "Potential contaminant",
-      "id",
-      "Peptide IDs",
-      "Peptide is razor",
-      "Mod. peptide IDs",
-      "Evidence IDs",
-      "MS/MS IDs",
-      "Best MS/MS",
-      "Oxidation (M) site IDs",
-      "Oxidation (M) site positions",
-      "Taxonomy IDs",
-      "f95856ac0f01c5e234f95a1e6dcf6273584a0bb00ee46b943861be72875029e5._rids"
-     ],
-     "outNames": [
-      "Protein IDs",
-      "Majority protein IDs",
-      "Peptide counts (all)",
-      "Peptide counts (razor+unique)",
-      "Peptide counts (unique)",
-      "Protein names",
-      "Gene names",
-      "Fasta headers",
-      "Number of proteins",
-      "Peptides",
-      "Razor + unique peptides",
-      "Unique peptides",
-      "Peptides KO_BioID_1",
-      "Peptides KO_BioID_2",
-      "Peptides KO_BioID_3",
-      "Peptides KO_GFP_1",
-      "Peptides KO_GFP_2",
-      "Peptides KO_GFP_3",
-      "Peptides WT_BioID_1",
-      "Peptides WT_BioID_2",
-      "Peptides WT_BioID_3",
-      "Peptides WT_GFP_1",
-      "Peptides WT_GFP_2",
-      "Peptides WT_GFP_3",
-      "Razor + unique peptides KO_BioID_1",
-      "Razor + unique peptides KO_BioID_2",
-      "Razor + unique peptides KO_BioID_3",
-      "Razor + unique peptides KO_GFP_1",
-      "Razor + unique peptides KO_GFP_2",
-      "Razor + unique peptides KO_GFP_3",
-      "Razor + unique peptides WT_BioID_1",
-      "Razor + unique peptides WT_BioID_2",
-      "Razor + unique peptides WT_BioID_3",
-      "Razor + unique peptides WT_GFP_1",
-      "Razor + unique peptides WT_GFP_2",
-      "Razor + unique peptides WT_GFP_3",
-      "Unique peptides KO_BioID_1",
-      "Unique peptides KO_BioID_2",
-      "Unique peptides KO_BioID_3",
-      "Unique peptides KO_GFP_1",
-      "Unique peptides KO_GFP_2",
-      "Unique peptides KO_GFP_3",
-      "Unique peptides WT_BioID_1",
-      "Unique peptides WT_BioID_2",
-      "Unique peptides WT_BioID_3",
-      "Unique peptides WT_GFP_1",
-      "Unique peptides WT_GFP_2",
-      "Unique peptides WT_GFP_3",
-      "Sequence coverage [%]",
-      "Unique + razor sequence coverage [%]",
-      "Unique sequence coverage [%]",
-      "Mol. weight [kDa]",
-      "Sequence length",
-      "Sequence lengths",
-      "Q-value",
-      "Score",
-      "Sequence coverage KO_BioID_1 [%]",
-      "Sequence coverage KO_BioID_2 [%]",
-      "Sequence coverage KO_BioID_3 [%]",
-      "Sequence coverage KO_GFP_1 [%]",
-      "Sequence coverage KO_GFP_2 [%]",
-      "Sequence coverage KO_GFP_3 [%]",
-      "Sequence coverage WT_BioID_1 [%]",
-      "Sequence coverage WT_BioID_2 [%]",
-      "Sequence coverage WT_BioID_3 [%]",
-      "Sequence coverage WT_GFP_1 [%]",
-      "Sequence coverage WT_GFP_2 [%]",
-      "Sequence coverage WT_GFP_3 [%]",
-      "Intensity",
-      "Intensity KO_BioID_1",
-      "Intensity KO_BioID_2",
-      "Intensity KO_BioID_3",
-      "Intensity KO_GFP_1",
-      "Intensity KO_GFP_2",
-      "Intensity KO_GFP_3",
-      "Intensity WT_BioID_1",
-      "Intensity WT_BioID_2",
-      "Intensity WT_BioID_3",
-      "Intensity WT_GFP_1",
-      "Intensity WT_GFP_2",
-      "Intensity WT_GFP_3",
-      "LFQ intensity KO_BioID_1",
-      "LFQ intensity KO_BioID_2",
-      "LFQ intensity KO_BioID_3",
-      "LFQ intensity KO_GFP_1",
-      "LFQ intensity KO_GFP_2",
-      "LFQ intensity KO_GFP_3",
-      "LFQ intensity WT_BioID_1",
-      "LFQ intensity WT_BioID_2",
-      "LFQ intensity WT_BioID_3",
-      "LFQ intensity WT_GFP_1",
-      "LFQ intensity WT_GFP_2",
-      "LFQ intensity WT_GFP_3",
-      "MS/MS count KO_BioID_1",
-      "MS/MS count KO_BioID_2",
-      "MS/MS count KO_BioID_3",
-      "MS/MS count KO_GFP_1",
-      "MS/MS count KO_GFP_2",
-      "MS/MS count KO_GFP_3",
-      "MS/MS count WT_BioID_1",
-      "MS/MS count WT_BioID_2",
-      "MS/MS count WT_BioID_3",
-      "MS/MS count WT_GFP_1",
-      "MS/MS count WT_GFP_2",
-      "MS/MS count WT_GFP_3",
-      "MS/MS count",
-      "Peptide sequences",
-      "Only identified by site",
-      "Reverse",
-      "Potential contaminant",
-      "id",
-      "Peptide IDs",
-      "Peptide is razor",
-      "Mod. peptide IDs",
-      "Evidence IDs",
-      "MS/MS IDs",
-      "Best MS/MS",
-      "Oxidation (M) site IDs",
-      "Oxidation (M) site positions",
-      "Taxonomy IDs",
-      "rowId"
-     ]
+     "kind": "UnionRelation",
+     "id": "18a0dfdc-7c44-452f-9bb8-0c9e4a082e94",
+     "relations": []
     },
     "filterSelector": ""
    }
@@ -525,7 +275,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Sub workflow.",
@@ -576,7 +326,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Input of a sub workflow.",
@@ -624,7 +374,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Convert data from a wide format to a long format.",
@@ -636,68 +386,7 @@
     "factorType": "double",
     "gatherType": ""
    },
-   "meltedAttributes": [
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity KO_BioID_1",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity KO_BioID_2",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity KO_BioID_3",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity KO_GFP_1",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity KO_GFP_2",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity KO_GFP_3",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity WT_BioID_1",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity WT_BioID_2",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity WT_BioID_3",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity WT_GFP_1",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity WT_GFP_2",
-     "type": "double"
-    },
-    {
-     "kind": "Attribute",
-     "name": "LFQ intensity WT_GFP_3",
-     "type": "double"
-    }
-   ]
+   "meltedAttributes": []
   },
   {
    "kind": "JoinStep",
@@ -743,7 +432,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Join two data sets.",
@@ -766,53 +455,7 @@
     "rightPrefix": "sample",
     "joinType": ""
    },
-   "rightAttributes": [
-    {
-     "kind": "Attribute",
-     "name": "Colnames",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "PhenoType",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "Construct",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "Replicates",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "SuperGroup",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "Group",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "revGroup",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "Experiment",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "rowId",
-     "type": "int32"
-    }
-   ]
+   "rightAttributes": []
   },
   {
    "kind": "InStep",
@@ -852,7 +495,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Input of a sub workflow.",
@@ -885,50 +528,24 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 368.8130798339844,
-     "y": 126.5
+     "x": 391.8130798339844,
+     "y": 144.5
     }
    },
    "state": {
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Select a data set.",
    "model": {
     "kind": "TableStepModel",
     "relation": {
-     "kind": "RenameRelation",
-     "id": "rename_2c4778432439d69ab21ce5f9d886c313",
-     "relation": {
-      "kind": "SimpleRelation",
-      "id": "8fd47c2de59a98cccf52ef114fb1ac6b2135ec57be37a0e3c95771021501fa40",
-      "index": 0
-     },
-     "inNames": [
-      "Colnames",
-      "PhenoType",
-      "Construct",
-      "Replicates",
-      "SuperGroup",
-      "Group",
-      "revGroup",
-      "Experiment",
-      "8fd47c2de59a98cccf52ef114fb1ac6b2135ec57be37a0e3c95771021501fa40._rids"
-     ],
-     "outNames": [
-      "Colnames",
-      "PhenoType",
-      "Construct",
-      "Replicates",
-      "SuperGroup",
-      "Group",
-      "revGroup",
-      "Experiment",
-      "rowId"
-     ]
+     "kind": "UnionRelation",
+     "id": "41850a86-e9e5-4d15-8fcb-461407ad7b82",
+     "relations": []
     },
     "filterSelector": ""
    }
@@ -969,9 +586,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8871153",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -1128,7 +745,7 @@
       "kind": "OperatorRef",
       "name": "Log Cutoff",
       "version": "0.1.3",
-      "operatorId": "7",
+      "operatorId": "6",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -1242,110 +859,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "c9d221b8-1403-42ec-8dea-cfbc8439629a",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "LFQ.variable",
-        "Protein IDs"
-       ],
-       "rColumns": [
-        "LFQ.variable",
-        "Protein IDs"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "d6bece54-5c0e-4ad2-bb7b-9cb8d4de298b",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "0aa82c8d-ac7b-4f80-b7e7-8edbd072b97b",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ci"
-           ],
-           "rColumns": [
-            "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1",
-           "index": 0
-          }
-         },
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27",
-         "index": 0
-        }
-       },
-       "inNames": [
-        ".ri",
-        ".ci",
-        "log2.logTransformed",
-        "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27._rids",
-        "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27.tlbId",
-        "LFQ.variable",
-        "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1._rids",
-        "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1.tlbId",
-        "Protein IDs",
-        "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec._rids",
-        "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec.tlbId",
-        "LFQ.variable",
-        "Protein IDs"
-       ],
-       "outNames": [
-        ".ri",
-        ".ci",
-        "log2.logTransformed",
-        "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27._rids",
-        "0d54995bd0892e1c759a5134a9d5fea2bdfc13c696f69273ce18c1b38c380f27.tlbId",
-        "LFQ.variable",
-        "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1._rids",
-        "8652081fd5573a180a47c781f97579ea332fe1974a8763e94a1e7747d6d3d8c1.tlbId",
-        "Protein IDs",
-        "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec._rids",
-        "113207a9216f91bb1f4ef3d79e3309cff8cd2e78432b2464283952162410d4ec.tlbId",
-        "log2..variable",
-        "log2..Protein IDs"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "85f88755-6c6e-42e3-9fba-5f3b8301db2c"
-    }
+    "kind": "Relation",
+    "id": "1c663bc9-d62a-4a79-81db-0170feb8ef76"
    },
    "parentDataStepId": ""
   },
@@ -1385,9 +900,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8871700",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -1628,80 +1143,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "ecc77973-b12a-4a31-859e-dd9a40456efa",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "log2..Protein IDs"
-       ],
-       "rColumns": [
-        "log2..Protein IDs"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "1a6c147d-d483-41ba-8cd5-e52cec5947a0",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "5ef3d978-b9ad-4a4f-b53e-9c069e866f9f",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "772adffac360d84ab86986980dc0dd83f9cedf6b9cc8713896768fa9e7e3ef25._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "772adffac360d84ab86986980dc0dd83f9cedf6b9cc8713896768fa9e7e3ef25",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "ef38b842e413c5a1104815f9dc1c26134edba0906d9faabe009a45e4da79b3b1",
-         "index": 0
-        }
-       },
-       "inNames": [
-        ".ri",
-        "sum.sum",
-        "ef38b842e413c5a1104815f9dc1c26134edba0906d9faabe009a45e4da79b3b1._rids",
-        "ef38b842e413c5a1104815f9dc1c26134edba0906d9faabe009a45e4da79b3b1.tlbId",
-        "log2..Protein IDs",
-        "772adffac360d84ab86986980dc0dd83f9cedf6b9cc8713896768fa9e7e3ef25._rids",
-        "772adffac360d84ab86986980dc0dd83f9cedf6b9cc8713896768fa9e7e3ef25.tlbId",
-        "log2..Protein IDs"
-       ],
-       "outNames": [
-        ".ri",
-        "sum.sum",
-        "ef38b842e413c5a1104815f9dc1c26134edba0906d9faabe009a45e4da79b3b1._rids",
-        "ef38b842e413c5a1104815f9dc1c26134edba0906d9faabe009a45e4da79b3b1.tlbId",
-        "log2..Protein IDs",
-        "772adffac360d84ab86986980dc0dd83f9cedf6b9cc8713896768fa9e7e3ef25._rids",
-        "772adffac360d84ab86986980dc0dd83f9cedf6b9cc8713896768fa9e7e3ef25.tlbId",
-        "sum..Protein IDs"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "169e760b-65e9-4542-ac0d-ef43bc857284"
-    }
+    "kind": "Relation",
+    "id": "214ff5e3-5dc2-444c-a66b-f61c161d95db"
    },
    "parentDataStepId": ""
   },
@@ -1741,9 +1184,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8b13b70",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -2067,128 +1510,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "b3b4a340-011b-4101-95c0-acf438f57f12",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "sample.Experiment",
-        "sample.SuperGroup",
-        "sample.Group",
-        "log2..variable",
-        "log2..Protein IDs"
-       ],
-       "rColumns": [
-        "sample.Experiment",
-        "sample.SuperGroup",
-        "sample.Group",
-        "log2..variable",
-        "log2..Protein IDs"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "28d913e8-3699-4008-83c0-5f488e17853e",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "736584f3-0fac-48fd-9839-03531c317ef7",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ci"
-           ],
-           "rColumns": [
-            "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac",
-           "index": 0
-          }
-         },
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54",
-         "index": 0
-        }
-       },
-       "inNames": [
-        "preproc.identity",
-        ".ci",
-        ".ri",
-        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54._rids",
-        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54.tlbId",
-        "sample.Experiment",
-        "sample.SuperGroup",
-        "sample.Group",
-        "log2..variable",
-        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac._rids",
-        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac.tlbId",
-        "log2..Protein IDs",
-        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6._rids",
-        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6.tlbId",
-        "sample.Experiment",
-        "sample.SuperGroup",
-        "sample.Group",
-        "log2..variable",
-        "log2..Protein IDs"
-       ],
-       "outNames": [
-        "preproc.identity",
-        ".ci",
-        ".ri",
-        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54._rids",
-        "3b3a59552cd2399048192d7fcc75544dd802082745485541f1b45109d1003f54.tlbId",
-        "sample.Experiment",
-        "sample.SuperGroup",
-        "sample.Group",
-        "log2..variable",
-        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac._rids",
-        "6ad22bcc9916139805aa982d6993f25bf1d5b4a3589cafb91a1a72087486acac.tlbId",
-        "log2..Protein IDs",
-        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6._rids",
-        "d6a0986b6e1a1ea5a9a16c379de6f3542825c22ddf86de0f7b920790668760a6.tlbId",
-        "preproc..Experiment",
-        "preproc..SuperGroup",
-        "preproc..Group",
-        "preproc..variable",
-        "preproc..Protein IDs"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "5ebd9553-d5b7-473c-8bba-085ccf536cd0"
-    }
+    "kind": "Relation",
+    "id": "31d19636-21b3-40b9-bb08-68f294c35d81"
    },
    "parentDataStepId": ""
   },
@@ -2230,7 +1553,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Output of a sub workflow.",
@@ -2276,9 +1599,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8b15363",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -2603,134 +1926,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "5d6987f0-80e6-4da1-849c-1417c7842151",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "preproc..Experiment",
-        "preproc..SuperGroup",
-        "preproc..Group",
-        "preproc..variable",
-        "preproc..Protein IDs",
-        "Gene names"
-       ],
-       "rColumns": [
-        "preproc..Experiment",
-        "preproc..SuperGroup",
-        "preproc..Group",
-        "preproc..variable",
-        "preproc..Protein IDs",
-        "Gene names"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "89e73e56-1a17-4c4d-b7bf-f59209864482",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "77fcc2ba-23b6-4620-88b2-642ab28ed73d",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ci"
-           ],
-           "rColumns": [
-            "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674",
-           "index": 0
-          }
-         },
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6",
-         "index": 0
-        }
-       },
-       "inNames": [
-        "data.identity",
-        ".ci",
-        ".ri",
-        "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6._rids",
-        "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6.tlbId",
-        "preproc..Experiment",
-        "preproc..SuperGroup",
-        "preproc..Group",
-        "preproc..variable",
-        "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674._rids",
-        "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674.tlbId",
-        "preproc..Protein IDs",
-        "Gene names",
-        "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids",
-        "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7.tlbId",
-        "preproc..Experiment",
-        "preproc..SuperGroup",
-        "preproc..Group",
-        "preproc..variable",
-        "preproc..Protein IDs",
-        "Gene names"
-       ],
-       "outNames": [
-        "data.identity",
-        ".ci",
-        ".ri",
-        "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6._rids",
-        "093f10ab7e36dcf23f68d38bb5a66200d5b2d3ea1375ba64eb021220f87018f6.tlbId",
-        "preproc..Experiment",
-        "preproc..SuperGroup",
-        "preproc..Group",
-        "preproc..variable",
-        "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674._rids",
-        "030cb7bd0bed70dc1081010214bdf8fb5096001c9bf0b18cc20a2eb4cc548674.tlbId",
-        "preproc..Protein IDs",
-        "Gene names",
-        "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7._rids",
-        "ac962f32d9702bb362376407df8ae1f5455b48bba302784820e2b5a38e7bf6c7.tlbId",
-        "data..Experiment",
-        "data..SuperGroup",
-        "data..Group",
-        "data..variable",
-        "data..Protein IDs",
-        "data..Gene names"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "c48528e1-2b06-4b5c-b858-9b1096dee297"
-    }
+    "kind": "Relation",
+    "id": "b4b1c9b2-8b01-4c6e-9bfc-31b180d9041f"
    },
    "parentDataStepId": ""
   },
@@ -3003,204 +2200,20 @@
      "namespace": "ds0",
      "operatorRef": {
       "kind": "OperatorRef",
-      "name": "Plot",
-      "version": "0.3.5",
-      "operatorId": "6",
-      "operatorKind": "ROperator",
-      "propertyValues": [
-       {
-        "kind": "PropertyValue",
-        "name": "plot_type",
-        "value": "png"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "file.name.prefix",
-        "value": "Tercen_Plot"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "plot.width",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "plot.height",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "base.size",
-        "value": "11"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "x_range",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "y_range",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "xlab",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "ylab",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "title",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "subtitle",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "caption",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "legend.title",
-        "value": ""
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "bar.position",
-        "value": "dodge"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "theme",
-        "value": "light"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "scales",
-        "value": "fixed"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "color_scales",
-        "value": "fixed"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "rotate_x_axis",
-        "value": "false"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "wrap.1d",
-        "value": "true"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "flip",
-        "value": "false"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "split_cells",
-        "value": "false"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "n_cells_max",
-        "value": "50"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "heatmap_annotation",
-        "value": "none"
-       },
-       {
-        "kind": "PropertyValue",
-        "name": "default.color",
-        "value": "#36454f"
-       }
-      ],
+      "name": "",
+      "version": "",
+      "operatorId": "",
+      "operatorKind": "",
+      "propertyValues": [],
       "url": {
        "kind": "Url",
-       "uri": "https://github.com/tercen/plot_operator"
+       "uri": ""
       },
       "operatorSpec": {
        "kind": "OperatorSpec",
-       "ontologyUri": "https://tercen.com/_ontology/tercen",
-       "ontologyVersion": "0.0.1",
-       "inputSpecs": [
-        {
-         "kind": "CrosstabSpec",
-         "metaFactors": [
-          {
-           "kind": "MetaFactor",
-           "name": "Page",
-           "type": "",
-           "description": "These factor(s) will be used to produce one plot file per category.",
-           "ontologyMapping": "page",
-           "crosstabMapping": "row",
-           "cardinality": "",
-           "factors": []
-          },
-          {
-           "kind": "MetaFactor",
-           "name": "Rows",
-           "type": "",
-           "description": "Factor(s) to stratify per row.",
-           "ontologyMapping": "sample",
-           "crosstabMapping": "row",
-           "cardinality": "",
-           "factors": []
-          },
-          {
-           "kind": "MetaFactor",
-           "name": "Columns",
-           "type": "",
-           "description": "Factor(s) to stratify per column.",
-           "ontologyMapping": "variable",
-           "crosstabMapping": "column",
-           "cardinality": "",
-           "factors": []
-          }
-         ],
-         "axis": [
-          {
-           "kind": "AxisSpec",
-           "metaFactors": [
-            {
-             "kind": "MetaFactor",
-             "name": "Y Axis",
-             "type": "numeric",
-             "description": "Factor to use for the graph's Y axis.",
-             "ontologyMapping": "y-axis",
-             "crosstabMapping": "y",
-             "cardinality": "1",
-             "factors": []
-            },
-            {
-             "kind": "MetaFactor",
-             "name": "X Axis",
-             "type": "",
-             "description": "Factor to use for the graph's X axis.",
-             "ontologyMapping": "x-axis",
-             "crosstabMapping": "x",
-             "cardinality": "1",
-             "factors": []
-            }
-           ]
-          }
-         ]
-        }
-       ],
+       "ontologyUri": "",
+       "ontologyVersion": "",
+       "inputSpecs": [],
        "outputSpecs": []
       }
      },
@@ -3274,7 +2287,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2e3dde30-9a10-4417-89a8-d443a2920905"
+    "id": "c54041f0-1a53-4ec9-9fe6-6d1603581cde"
    },
    "parentDataStepId": ""
   },
@@ -3657,7 +2670,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "f1a7ed74-8354-4c7a-a08f-a1de9ba46ce9"
+    "id": "406e7de8-7b64-410b-af95-0a34c512255d"
    },
    "parentDataStepId": ""
   },
@@ -3697,9 +2710,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8b1ede1",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -3876,7 +2889,7 @@
       "kind": "OperatorRef",
       "name": "LIMMA PSA",
       "version": "0.0.1",
-      "operatorId": "9",
+      "operatorId": "8",
       "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {
@@ -3960,94 +2973,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "07445c2c-ca4b-4531-8cf9-3d421ddaa817",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "data..Protein IDs"
-       ],
-       "rColumns": [
-        "data..Protein IDs"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "86d72b4d-3c78-4d3f-ab72-fd07ee1797a7",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "ce5ab387-7a46-40ea-96df-57276d672ec7",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175",
-         "index": 0
-        }
-       },
-       "inNames": [
-        ".ri",
-        "diff.contrast",
-        "diff.logFC",
-        "diff.AveExpr",
-        "diff.t",
-        "diff.p.value",
-        "diff.logp",
-        "diff.p.rank",
-        "diff.data..SuperGroup",
-        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175._rids",
-        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175.tlbId",
-        "data..Protein IDs",
-        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc._rids",
-        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc.tlbId",
-        "data..Protein IDs"
-       ],
-       "outNames": [
-        ".ri",
-        "diff.contrast",
-        "diff.logFC",
-        "diff.AveExpr",
-        "diff.t",
-        "diff.p.value",
-        "diff.logp",
-        "diff.p.rank",
-        "diff.data..SuperGroup",
-        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175._rids",
-        "d506fa764566af2e85044fcf0b98f5ea692384f435ad84c4936da7f0ca147175.tlbId",
-        "data..Protein IDs",
-        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc._rids",
-        "0376c8995b6aaf9fc5d6d3a6e7654af44332731da53f0449b042279e92774fbc.tlbId",
-        "diff..Protein IDs"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "85e2a04b-a943-4ed9-b064-8d421e924814"
-    }
+    "kind": "Relation",
+    "id": "f16e03db-aac6-4cab-88eb-f9d4e050780f"
    },
    "parentDataStepId": ""
   },
@@ -4401,7 +3328,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "4b5f70bd-7188-482c-bf9b-506e0d660944"
+    "id": "8bf9beac-0750-46f2-94be-f8549a0fbb6b"
    },
    "parentDataStepId": ""
   },
@@ -4449,7 +3376,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Join two data sets.",
@@ -4472,43 +3399,7 @@
     "rightPrefix": "path",
     "joinType": ""
    },
-   "rightAttributes": [
-    {
-     "kind": "Attribute",
-     "name": "uniprotID",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "reactomeID",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "url",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "pathway",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "evidence",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "organism",
-     "type": "string"
-    },
-    {
-     "kind": "Attribute",
-     "name": "rowId",
-     "type": "int32"
-    }
-   ]
+   "rightAttributes": []
   },
   {
    "kind": "TableStep",
@@ -4533,46 +3424,24 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 430.82408142089844,
-     "y": 485.5
+     "x": 433.82408142089844,
+     "y": 490.5
     }
    },
    "state": {
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Select a data set.",
    "model": {
     "kind": "TableStepModel",
     "relation": {
-     "kind": "RenameRelation",
-     "id": "rename_2c4778432439d69ab21ce5f9d89331cb",
-     "relation": {
-      "kind": "SimpleRelation",
-      "id": "a805c0579b238c5cd35d97e1eb0a4b97f50a5212fe50dc42cea778b8035269c4",
-      "index": 0
-     },
-     "inNames": [
-      "uniprotID",
-      "reactomeID",
-      "url",
-      "pathway",
-      "evidence",
-      "organism",
-      "a805c0579b238c5cd35d97e1eb0a4b97f50a5212fe50dc42cea778b8035269c4._rids"
-     ],
-     "outNames": [
-      "uniprotID",
-      "reactomeID",
-      "url",
-      "pathway",
-      "evidence",
-      "organism",
-      "rowId"
-     ]
+     "kind": "UnionRelation",
+     "id": "30c90047-793d-4620-b509-1afd1ededed2",
+     "relations": []
     },
     "filterSelector": ""
    }
@@ -4613,9 +3482,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2c4778432439d69ab21ce5f9d8b28422",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -4892,86 +3761,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "7704e12b-4a4f-4030-8f0d-2a0bc800ef2d",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "path.pathway"
-       ],
-       "rColumns": [
-        "path.pathway"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "11ad25be-37e4-44a8-b6df-df76a0235a78",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "b9b15754-0d3d-4696-81d9-44bc8ad27cb4",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab",
-         "index": 0
-        }
-       },
-       "inNames": [
-        "enrich.pval",
-        "enrich.padj",
-        "enrich.ES",
-        "enrich.NES",
-        ".ri",
-        "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab._rids",
-        "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab.tlbId",
-        "path.pathway",
-        "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f._rids",
-        "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f.tlbId",
-        "path.pathway"
-       ],
-       "outNames": [
-        "enrich.pval",
-        "enrich.padj",
-        "enrich.ES",
-        "enrich.NES",
-        ".ri",
-        "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab._rids",
-        "ebaf2bddca17370bfd0fefa3d8ca3203af8e6784ef4261b0fef4473801df91ab.tlbId",
-        "path.pathway",
-        "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f._rids",
-        "62feeccc5a6ee4c13e9e320156b399ca29916613cc0182e2c79b829dd0bec85f.tlbId",
-        "enrich..pathway"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "6e76587c-09ea-4a40-91bb-dd6d8c6c57f7"
-    }
+    "kind": "Relation",
+    "id": "848b8220-8e29-4dfa-921a-8ab31f4a1046"
    },
    "parentDataStepId": ""
   },
@@ -5330,7 +4121,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "e44c4c25-b4cf-458e-bec9-5a14d6300ef1"
+    "id": "294d3bc3-4879-4feb-9a12-e12512a30047"
    },
    "parentDataStepId": ""
   },
@@ -5370,9 +4161,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37dcddb7b",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -5634,7 +4425,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "814dd9ad-911f-4006-9879-3d27ccd0fe82"
+    "id": "1afbbe4f-b6f8-47d0-b306-7386e748b725"
    },
    "parentDataStepId": ""
   },
@@ -5674,9 +4465,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37dcddaf4",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "",
@@ -5702,7 +4493,7 @@
         "factors": [
          {
           "kind": "Factor",
-          "name": "data.identity",
+          "name": "Measurement",
           "type": "double"
          }
         ],
@@ -5710,17 +4501,17 @@
          "kind": "JetPalette",
          "backcolor": 0,
          "properties": [],
-         "isUserDefined": true,
+         "isUserDefined": false,
          "doubleColorElements": [
           {
            "kind": "DoubleColorElement",
            "color": -1,
-           "stringValue": "0"
+           "stringValue": "-0.14522611536085717"
           },
           {
            "kind": "DoubleColorElement",
            "color": -1,
-           "stringValue": "37.80812997084579"
+           "stringValue": "1.194726208690555"
           }
          ]
         }
@@ -5781,7 +4572,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "data.identity",
+          "name": "Measurement",
           "type": "double"
          },
          "rectangle": {
@@ -5806,14 +4597,14 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 58.333333333333336,
+     "cellSize": 73.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..variable",
+        "name": "Observation",
         "type": "string"
        },
        "rectangle": {
@@ -5821,7 +4612,7 @@
         "extent": {
          "kind": "Point",
          "x": 0.0,
-         "y": 149.0
+         "y": 30.0
         },
         "topLeft": {
          "kind": "Point",
@@ -5832,7 +4623,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 12
+     "nRows": 10
     },
     "filters": {
      "kind": "Filters",
@@ -5841,7 +4632,7 @@
     },
     "operatorSettings": {
      "kind": "OperatorSettings",
-     "namespace": "Heatmap.ds10",
+     "namespace": "ds10",
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "",
@@ -5868,14 +4659,14 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 16.954545454545453,
-     "offset": 1139,
+     "cellSize": 36.95454545454545,
+     "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "Heatmap.ds5.rorder",
+        "name": "ds5.rorder",
         "type": "double"
        },
        "rectangle": {
@@ -5896,7 +4687,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..Protein IDs",
+        "name": "Variable",
         "type": "string"
        },
        "rectangle": {
@@ -5915,13 +4706,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 1986
+     "nRows": 10
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "072fa51f-4cc9-4f3a-941a-a12f853725d7"
+    "id": "74bf8f61-6979-4dda-8c00-89dddef29f68"
    },
    "parentDataStepId": ""
   },
@@ -5956,7 +4747,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": ""
@@ -5997,9 +4788,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37dc72f84",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "",
@@ -6091,7 +4882,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "data.identity",
+          "name": "Measurement",
           "type": "double"
          },
          "rectangle": {
@@ -6123,7 +4914,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..variable",
+        "name": "Observation",
         "type": "string"
        },
        "rectangle": {
@@ -6151,12 +4942,12 @@
     },
     "operatorSettings": {
      "kind": "OperatorSettings",
-     "namespace": "Heatmap.ds30",
+     "namespace": "ds30",
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Scale (Z-Score)",
       "version": "0.12.2",
-      "operatorId": "8",
+      "operatorId": "7",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -6196,7 +4987,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "Heatmap.ds5.rorder",
+        "name": "ds5.rorder",
         "type": "double"
        },
        "rectangle": {
@@ -6217,7 +5008,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..Protein IDs",
+        "name": "Variable",
         "type": "string"
        },
        "rectangle": {
@@ -6241,116 +5032,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "05572916-092c-4884-acad-5863362e8dff",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "data..variable",
-        "Heatmap.ds5.rorder",
-        "data..Protein IDs"
-       ],
-       "rColumns": [
-        "data..variable",
-        "Heatmap.ds5.rorder",
-        "data..Protein IDs"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "268c6289-5c50-4800-9242-cb42e6755123",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "63b47f57-6553-4c55-8c42-9a2b134e65f5",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ci"
-           ],
-           "rColumns": [
-            "80c814a14c7ee04f523798d399521757af0e8ce358b0505918e41db3f57deb17._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "80c814a14c7ee04f523798d399521757af0e8ce358b0505918e41db3f57deb17",
-           "index": 0
-          }
-         },
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "2e8993ce901179121b6f353d6f91cb4d18d04b82db2a1b00a0b986cd93f33a3e._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "2e8993ce901179121b6f353d6f91cb4d18d04b82db2a1b00a0b986cd93f33a3e",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "de6b26bcac358377ade4858849a7c973114d34c7588dd2e83b173b620e246596",
-         "index": 0
-        }
-       },
-       "inNames": [
-        "Heatmap.ds30.scaled_value",
-        ".ri",
-        ".ci",
-        "de6b26bcac358377ade4858849a7c973114d34c7588dd2e83b173b620e246596._rids",
-        "de6b26bcac358377ade4858849a7c973114d34c7588dd2e83b173b620e246596.tlbId",
-        "data..variable",
-        "80c814a14c7ee04f523798d399521757af0e8ce358b0505918e41db3f57deb17._rids",
-        "80c814a14c7ee04f523798d399521757af0e8ce358b0505918e41db3f57deb17.tlbId",
-        "Heatmap.ds5.rorder",
-        "data..Protein IDs",
-        "2e8993ce901179121b6f353d6f91cb4d18d04b82db2a1b00a0b986cd93f33a3e._rids",
-        "2e8993ce901179121b6f353d6f91cb4d18d04b82db2a1b00a0b986cd93f33a3e.tlbId",
-        "data..variable",
-        "Heatmap.ds5.rorder",
-        "data..Protein IDs"
-       ],
-       "outNames": [
-        "Heatmap.ds30.scaled_value",
-        ".ri",
-        ".ci",
-        "de6b26bcac358377ade4858849a7c973114d34c7588dd2e83b173b620e246596._rids",
-        "de6b26bcac358377ade4858849a7c973114d34c7588dd2e83b173b620e246596.tlbId",
-        "data..variable",
-        "80c814a14c7ee04f523798d399521757af0e8ce358b0505918e41db3f57deb17._rids",
-        "80c814a14c7ee04f523798d399521757af0e8ce358b0505918e41db3f57deb17.tlbId",
-        "Heatmap.ds5.rorder",
-        "data..Protein IDs",
-        "2e8993ce901179121b6f353d6f91cb4d18d04b82db2a1b00a0b986cd93f33a3e._rids",
-        "2e8993ce901179121b6f353d6f91cb4d18d04b82db2a1b00a0b986cd93f33a3e.tlbId",
-        "Heatmap.ds30..variable",
-        "Heatmap.ds30..rorder",
-        "Heatmap.ds30..Protein IDs"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "668b60ba-bc2a-452e-bfb9-1db2d3fae841"
-    }
+    "kind": "Relation",
+    "id": "9dac47fc-e202-4ccf-b5e2-8cd4bf71241e"
    },
    "parentDataStepId": ""
   },
@@ -6390,9 +5073,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37dc77672",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "",
@@ -6418,7 +5101,7 @@
         "factors": [
          {
           "kind": "Factor",
-          "name": "Heatmap.ds30.scaled_value",
+          "name": "ds30.scaled_value",
           "type": "double"
          }
         ],
@@ -6502,7 +5185,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "Heatmap.ds30.scaled_value",
+          "name": "ds30.scaled_value",
           "type": "double"
          },
          "rectangle": {
@@ -6534,7 +5217,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..variable",
+        "name": "Observation",
         "type": "string"
        },
        "rectangle": {
@@ -6542,7 +5225,7 @@
         "extent": {
          "kind": "Point",
          "x": 110.0,
-         "y": 148.0
+         "y": 30.0
         },
         "topLeft": {
          "kind": "Point",
@@ -6553,7 +5236,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 12
+     "nRows": 10
     },
     "filters": {
      "kind": "Filters",
@@ -6562,7 +5245,7 @@
     },
     "operatorSettings": {
      "kind": "OperatorSettings",
-     "namespace": "Heatmap.ds4",
+     "namespace": "ds4",
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "",
@@ -6596,7 +5279,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "Heatmap.ds30..rorder",
+        "name": "ds30..rorder",
         "type": "double"
        },
        "rectangle": {
@@ -6617,7 +5300,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..Protein IDs",
+        "name": "Variable",
         "type": "string"
        },
        "rectangle": {
@@ -6636,13 +5319,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 1986
+     "nRows": 10
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "1100f8b3-c4f5-4ce2-8fba-5b168a3602b1"
+    "id": "a4654267-f1ba-4677-80f9-4bf08b15f942"
    },
    "parentDataStepId": ""
   },
@@ -6677,7 +5360,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": ""
@@ -6720,7 +5403,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "",
@@ -6789,1222 +5472,7 @@
      }
     ],
     "filters": [],
-    "steps": [
-     {
-      "kind": "DataStep",
-      "id": "d6058c85-df82-1311-8321-094dd6daae9c",
-      "groupId": "d56cf600-df82-1311-8321-094dd6daae9c",
-      "name": "Order By",
-      "inputs": [
-       {
-        "kind": "InputPort",
-        "id": "d6058c83-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "outputs": [
-       {
-        "kind": "OutputPort",
-        "id": "d6058c84-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "rectangle": {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 88.99000000000001,
-        "y": 55.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 735.505,
-        "y": 155.5
-       }
-      },
-      "state": {
-       "kind": "StepState",
-       "taskId": "",
-       "taskState": {
-        "kind": "InitState"
-       }
-      },
-      "description": "",
-      "model": {
-       "kind": "Crosstab",
-       "axis": {
-        "kind": "XYAxisList",
-        "rectangleSelections": [],
-        "xyAxis": [
-         {
-          "kind": "XYAxis",
-          "chart": {
-           "kind": "ChartPoint",
-           "name": "",
-           "properties": {
-            "kind": "Properties",
-            "properties": [],
-            "propertyValues": []
-           },
-           "pointSize": 4
-          },
-          "colors": {
-           "kind": "Colors",
-           "factors": [],
-           "palette": {
-            "kind": "CategoryPalette",
-            "backcolor": 0,
-            "properties": [],
-            "colorList": {
-             "kind": "ColorList",
-             "name": ""
-            },
-            "stringColorElements": []
-           }
-          },
-          "errors": {
-           "kind": "Errors",
-           "factors": []
-          },
-          "labels": {
-           "kind": "Labels",
-           "factors": []
-          },
-          "xAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "",
-             "type": "string"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "yAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "Measurement",
-             "type": "double"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "taskId": "",
-          "preprocessors": []
-         }
-        ]
-       },
-       "columnTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 250.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Observation",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "filters": {
-        "kind": "Filters",
-        "removeNaN": true,
-        "namedFilters": []
-       },
-       "operatorSettings": {
-        "kind": "OperatorSettings",
-        "namespace": "ds5",
-        "operatorRef": {
-         "kind": "OperatorRef",
-         "name": "Order By",
-         "version": "0.1.5",
-         "operatorId": "12",
-         "operatorKind": "ROperator",
-         "propertyValues": [
-          {
-           "kind": "PropertyValue",
-           "name": "decreasing",
-           "value": "true"
-          },
-          {
-           "kind": "PropertyValue",
-           "name": "function",
-           "value": "mean"
-          }
-         ],
-         "url": {
-          "kind": "Url",
-          "uri": "https://github.com/tercen/orderBy_operator"
-         },
-         "operatorSpec": {
-          "kind": "OperatorSpec",
-          "ontologyUri": "",
-          "ontologyVersion": "",
-          "inputSpecs": [],
-          "outputSpecs": []
-         }
-        },
-        "environment": [],
-        "operatorModel": {
-         "kind": "OperatorModel"
-        }
-       },
-       "rowTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 250.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Variable",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 0.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [
-         {
-          "kind": "Rectangle",
-          "extent": {
-           "kind": "Point",
-           "x": 0.0,
-           "y": 0.0
-          },
-          "topLeft": {
-           "kind": "Point",
-           "x": 0.0,
-           "y": 1.0
-          }
-         }
-        ],
-        "nRows": 10
-       },
-       "taskId": ""
-      },
-      "computedRelation": {
-       "kind": "Relation",
-       "id": "87aac5f7-2f56-4afe-a408-743be8f9f831"
-      },
-      "parentDataStepId": ""
-     },
-     {
-      "kind": "DataStep",
-      "id": "d56cf603-df82-1311-8321-094dd6daae9c",
-      "groupId": "d56cf600-df82-1311-8321-094dd6daae9c",
-      "name": "Heatmap",
-      "inputs": [
-       {
-        "kind": "InputPort",
-        "id": "d56cf601-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "outputs": [
-       {
-        "kind": "OutputPort",
-        "id": "d56cf602-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "rectangle": {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 88.99000000000001,
-        "y": 55.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 618.9377856445312,
-        "y": 286.5
-       }
-      },
-      "state": {
-       "kind": "StepState",
-       "taskId": "",
-       "taskState": {
-        "kind": "InitState"
-       }
-      },
-      "description": "",
-      "model": {
-       "kind": "Crosstab",
-       "axis": {
-        "kind": "XYAxisList",
-        "rectangleSelections": [],
-        "xyAxis": [
-         {
-          "kind": "XYAxis",
-          "chart": {
-           "kind": "ChartHeatmap",
-           "name": "",
-           "properties": {
-            "kind": "Properties",
-            "properties": [],
-            "propertyValues": []
-           }
-          },
-          "colors": {
-           "kind": "Colors",
-           "factors": [
-            {
-             "kind": "Factor",
-             "name": "Measurement",
-             "type": "double"
-            }
-           ],
-           "palette": {
-            "kind": "JetPalette",
-            "backcolor": 0,
-            "properties": [],
-            "isUserDefined": false,
-            "doubleColorElements": [
-             {
-              "kind": "DoubleColorElement",
-              "color": -1,
-              "stringValue": "-0.14522611536085717"
-             },
-             {
-              "kind": "DoubleColorElement",
-              "color": -1,
-              "stringValue": "1.194726208690555"
-             }
-            ]
-           }
-          },
-          "errors": {
-           "kind": "Errors",
-           "factors": []
-          },
-          "labels": {
-           "kind": "Labels",
-           "factors": []
-          },
-          "xAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "",
-             "type": "string"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "yAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "Measurement",
-             "type": "double"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "taskId": "",
-          "preprocessors": []
-         }
-        ]
-       },
-       "columnTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 73.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Observation",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "filters": {
-        "kind": "Filters",
-        "removeNaN": true,
-        "namedFilters": []
-       },
-       "operatorSettings": {
-        "kind": "OperatorSettings",
-        "namespace": "ds10",
-        "operatorRef": {
-         "kind": "OperatorRef",
-         "name": "",
-         "version": "",
-         "operatorId": "",
-         "operatorKind": "",
-         "propertyValues": [],
-         "url": {
-          "kind": "Url",
-          "uri": ""
-         },
-         "operatorSpec": {
-          "kind": "OperatorSpec",
-          "ontologyUri": "",
-          "ontologyVersion": "",
-          "inputSpecs": [],
-          "outputSpecs": []
-         }
-        },
-        "environment": [],
-        "operatorModel": {
-         "kind": "OperatorModel"
-        }
-       },
-       "rowTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 36.95454545454545,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "ds5.rorder",
-           "type": "double"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 100.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         },
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Variable",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "taskId": ""
-      },
-      "computedRelation": {
-       "kind": "Relation",
-       "id": "dc8e1d24-2b16-40fc-bbe8-0ca5e7070faa"
-      },
-      "parentDataStepId": ""
-     },
-     {
-      "kind": "ViewStep",
-      "id": "d56cf605-df82-1311-8321-094dd6daae9c",
-      "groupId": "d56cf600-df82-1311-8321-094dd6daae9c",
-      "name": "View",
-      "inputs": [
-       {
-        "kind": "InputPort",
-        "id": "d56cf604-df82-1311-8321-094dd6daae9c",
-        "linkType": "any",
-        "name": "in"
-       }
-      ],
-      "outputs": [],
-      "rectangle": {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 88.99000000000001,
-        "y": 55.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 619.9377856445312,
-        "y": 374.5
-       }
-      },
-      "state": {
-       "kind": "StepState",
-       "taskId": "",
-       "taskState": {
-        "kind": "InitState"
-       }
-      },
-      "description": ""
-     },
-     {
-      "kind": "DataStep",
-      "id": "d56cf608-df82-1311-8321-094dd6daae9c",
-      "groupId": "d56cf600-df82-1311-8321-094dd6daae9c",
-      "name": "z-score scaling",
-      "inputs": [
-       {
-        "kind": "InputPort",
-        "id": "d56cf606-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "outputs": [
-       {
-        "kind": "OutputPort",
-        "id": "d56cf607-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "rectangle": {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 104.97987365722656,
-        "y": 55.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 836.9377856445312,
-        "y": 273.5
-       }
-      },
-      "state": {
-       "kind": "StepState",
-       "taskId": "",
-       "taskState": {
-        "kind": "InitState"
-       }
-      },
-      "description": "",
-      "model": {
-       "kind": "Crosstab",
-       "axis": {
-        "kind": "XYAxisList",
-        "rectangleSelections": [],
-        "xyAxis": [
-         {
-          "kind": "XYAxis",
-          "chart": {
-           "kind": "ChartPoint",
-           "name": "",
-           "properties": {
-            "kind": "Properties",
-            "properties": [],
-            "propertyValues": []
-           },
-           "pointSize": 4
-          },
-          "colors": {
-           "kind": "Colors",
-           "factors": [],
-           "palette": {
-            "kind": "CategoryPalette",
-            "backcolor": 0,
-            "properties": [],
-            "colorList": {
-             "kind": "ColorList",
-             "name": ""
-            },
-            "stringColorElements": []
-           }
-          },
-          "errors": {
-           "kind": "Errors",
-           "factors": []
-          },
-          "labels": {
-           "kind": "Labels",
-           "factors": []
-          },
-          "xAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "",
-             "type": "string"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "yAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "Measurement",
-             "type": "double"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "taskId": "",
-          "preprocessors": []
-         }
-        ]
-       },
-       "columnTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 250.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Observation",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "filters": {
-        "kind": "Filters",
-        "removeNaN": true,
-        "namedFilters": []
-       },
-       "operatorSettings": {
-        "kind": "OperatorSettings",
-        "namespace": "ds30",
-        "operatorRef": {
-         "kind": "OperatorRef",
-         "name": "Scale (Z-Score)",
-         "version": "0.12.2",
-         "operatorId": "8",
-         "operatorKind": "ROperator",
-         "propertyValues": [
-          {
-           "kind": "PropertyValue",
-           "name": "scale",
-           "value": "true"
-          },
-          {
-           "kind": "PropertyValue",
-           "name": "center",
-           "value": "true"
-          }
-         ],
-         "url": {
-          "kind": "Url",
-          "uri": "https://github.com/tercen/scale_operator"
-         },
-         "operatorSpec": {
-          "kind": "OperatorSpec",
-          "ontologyUri": "",
-          "ontologyVersion": "",
-          "inputSpecs": [],
-          "outputSpecs": []
-         }
-        },
-        "environment": [],
-        "operatorModel": {
-         "kind": "OperatorModel"
-        }
-       },
-       "rowTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 63.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "ds5.rorder",
-           "type": "double"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 100.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         },
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Variable",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "taskId": ""
-      },
-      "computedRelation": {
-       "kind": "Relation",
-       "id": "cc51724a-ace8-4a08-bf86-555d741fb2ef"
-      },
-      "parentDataStepId": ""
-     },
-     {
-      "kind": "DataStep",
-      "id": "d56cf60b-df82-1311-8321-094dd6daae9c",
-      "groupId": "d56cf600-df82-1311-8321-094dd6daae9c",
-      "name": "Scaled Heatmap -1.5 to 1.5",
-      "inputs": [
-       {
-        "kind": "InputPort",
-        "id": "d56cf609-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "outputs": [
-       {
-        "kind": "OutputPort",
-        "id": "d56cf60a-df82-1311-8321-094dd6daae9c",
-        "linkType": "relation",
-        "name": "data"
-       }
-      ],
-      "rectangle": {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 175.44178771972656,
-        "y": 55.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 799.9327224731446,
-        "y": 365.5
-       }
-      },
-      "state": {
-       "kind": "StepState",
-       "taskId": "",
-       "taskState": {
-        "kind": "InitState"
-       }
-      },
-      "description": "",
-      "model": {
-       "kind": "Crosstab",
-       "axis": {
-        "kind": "XYAxisList",
-        "rectangleSelections": [],
-        "xyAxis": [
-         {
-          "kind": "XYAxis",
-          "chart": {
-           "kind": "ChartHeatmap",
-           "name": "",
-           "properties": {
-            "kind": "Properties",
-            "properties": [],
-            "propertyValues": []
-           }
-          },
-          "colors": {
-           "kind": "Colors",
-           "factors": [
-            {
-             "kind": "Factor",
-             "name": "ds30.scaled_value",
-             "type": "double"
-            }
-           ],
-           "palette": {
-            "kind": "RampPalette",
-            "backcolor": 0,
-            "properties": [],
-            "isUserDefined": true,
-            "doubleColorElements": [
-             {
-              "kind": "DoubleColorElement",
-              "color": 255,
-              "stringValue": "-1.5"
-             },
-             {
-              "kind": "DoubleColorElement",
-              "color": 16777215,
-              "stringValue": "0"
-             },
-             {
-              "kind": "DoubleColorElement",
-              "color": 65280,
-              "stringValue": "1.5"
-             }
-            ]
-           }
-          },
-          "errors": {
-           "kind": "Errors",
-           "factors": []
-          },
-          "labels": {
-           "kind": "Labels",
-           "factors": []
-          },
-          "xAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "",
-             "type": "string"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "yAxis": {
-           "kind": "Axis",
-           "axisExtent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "axisSettings": {
-            "kind": "AxisSettings",
-            "meta": []
-           },
-           "graphicalFactor": {
-            "kind": "GraphicalFactor",
-            "factor": {
-             "kind": "Factor",
-             "name": "ds30.scaled_value",
-             "type": "double"
-            },
-            "rectangle": {
-             "kind": "Rectangle",
-             "extent": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             },
-             "topLeft": {
-              "kind": "Point",
-              "x": 0.0,
-              "y": 0.0
-             }
-            }
-           }
-          },
-          "taskId": "",
-          "preprocessors": []
-         }
-        ]
-       },
-       "columnTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 55.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Observation",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 110.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "filters": {
-        "kind": "Filters",
-        "removeNaN": true,
-        "namedFilters": []
-       },
-       "operatorSettings": {
-        "kind": "OperatorSettings",
-        "namespace": "ds4",
-        "operatorRef": {
-         "kind": "OperatorRef",
-         "name": "",
-         "version": "",
-         "operatorId": "",
-         "operatorKind": "",
-         "propertyValues": [],
-         "url": {
-          "kind": "Url",
-          "uri": ""
-         },
-         "operatorSpec": {
-          "kind": "OperatorSpec",
-          "ontologyUri": "",
-          "ontologyVersion": "",
-          "inputSpecs": [],
-          "outputSpecs": []
-         }
-        },
-        "environment": [],
-        "operatorModel": {
-         "kind": "OperatorModel"
-        }
-       },
-       "rowTable": {
-        "kind": "CrosstabTable",
-        "cellSize": 27.0,
-        "offset": 0,
-        "graphicalFactors": [
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "ds30..rorder",
-           "type": "double"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 110.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         },
-         {
-          "kind": "GraphicalFactor",
-          "factor": {
-           "kind": "Factor",
-           "name": "Variable",
-           "type": "string"
-          },
-          "rectangle": {
-           "kind": "Rectangle",
-           "extent": {
-            "kind": "Point",
-            "x": 80.0,
-            "y": 30.0
-           },
-           "topLeft": {
-            "kind": "Point",
-            "x": 0.0,
-            "y": 0.0
-           }
-          }
-         }
-        ],
-        "rectangleSelections": [],
-        "nRows": 10
-       },
-       "taskId": ""
-      },
-      "computedRelation": {
-       "kind": "Relation",
-       "id": "59a059ff-d033-44eb-b59f-eeaeed244033"
-      },
-      "parentDataStepId": ""
-     },
-     {
-      "kind": "ViewStep",
-      "id": "d56cf60d-df82-1311-8321-094dd6daae9c",
-      "groupId": "d56cf600-df82-1311-8321-094dd6daae9c",
-      "name": "View",
-      "inputs": [
-       {
-        "kind": "InputPort",
-        "id": "d56cf60c-df82-1311-8321-094dd6daae9c",
-        "linkType": "any",
-        "name": "in"
-       }
-      ],
-      "outputs": [],
-      "rectangle": {
-       "kind": "Rectangle",
-       "extent": {
-        "kind": "Point",
-        "x": 88.99000000000001,
-        "y": 55.0
-       },
-       "topLeft": {
-        "kind": "Point",
-        "x": 843.317666320801,
-        "y": 456.5
-       }
-      },
-      "state": {
-       "kind": "StepState",
-       "taskId": "",
-       "taskState": {
-        "kind": "InitState"
-       }
-      },
-      "description": ""
-     }
-    ],
+    "steps": [],
     "defaultFactors": [
      {
       "kind": "MappingFactor",
@@ -8103,9 +5571,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37dc6b46f",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "",
@@ -8197,7 +5665,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "data.identity",
+          "name": "Measurement",
           "type": "double"
          },
          "rectangle": {
@@ -8222,14 +5690,14 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 115.0,
+     "cellSize": 250.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..variable",
+        "name": "Observation",
         "type": "string"
        },
        "rectangle": {
@@ -8248,7 +5716,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 12
+     "nRows": 10
     },
     "filters": {
      "kind": "Filters",
@@ -8257,12 +5725,12 @@
     },
     "operatorSettings": {
      "kind": "OperatorSettings",
-     "namespace": "Heatmap.ds5",
+     "namespace": "ds5",
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Order By",
       "version": "0.1.5",
-      "operatorId": "12",
+      "operatorId": "11",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -8302,7 +5770,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "data..Protein IDs",
+        "name": "Variable",
         "type": "string"
        },
        "rectangle": {
@@ -8320,152 +5788,28 @@
        }
       }
      ],
-     "rectangleSelections": [],
-     "nRows": 1986
+     "rectangleSelections": [
+      {
+       "kind": "Rectangle",
+       "extent": {
+        "kind": "Point",
+        "x": 0.0,
+        "y": 0.0
+       },
+       "topLeft": {
+        "kind": "Point",
+        "x": 0.0,
+        "y": 1.0
+       }
+      }
+     ],
+     "nRows": 10
     },
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "504d368b-36c7-4f10-91b0-6eb86c8da484",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "data..variable"
-       ],
-       "rColumns": [
-        "data..variable"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "d04fb0b0-0254-4306-9bbe-0a50c6895ac2",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "8eba531d-9cf0-4f71-9bb9-9651569998fc",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ci"
-           ],
-           "rColumns": [
-            "ae38b3b84032b2684d0f6e0bd512d3c55e97a3c951a0ff9509db3f485f77b9af._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "ae38b3b84032b2684d0f6e0bd512d3c55e97a3c951a0ff9509db3f485f77b9af",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "48bebb4c9a2d8f4659ca2ad02bd57c057822f6d3d9ac49b7118ceb65b012a7f0",
-         "index": 0
-        }
-       },
-       "inNames": [
-        ".ci",
-        "Heatmap.ds5.corder",
-        "48bebb4c9a2d8f4659ca2ad02bd57c057822f6d3d9ac49b7118ceb65b012a7f0._rids",
-        "48bebb4c9a2d8f4659ca2ad02bd57c057822f6d3d9ac49b7118ceb65b012a7f0.tlbId",
-        "data..variable",
-        "ae38b3b84032b2684d0f6e0bd512d3c55e97a3c951a0ff9509db3f485f77b9af._rids",
-        "ae38b3b84032b2684d0f6e0bd512d3c55e97a3c951a0ff9509db3f485f77b9af.tlbId",
-        "data..variable"
-       ],
-       "outNames": [
-        ".ci",
-        "Heatmap.ds5.corder",
-        "48bebb4c9a2d8f4659ca2ad02bd57c057822f6d3d9ac49b7118ceb65b012a7f0._rids",
-        "48bebb4c9a2d8f4659ca2ad02bd57c057822f6d3d9ac49b7118ceb65b012a7f0.tlbId",
-        "data..variable",
-        "ae38b3b84032b2684d0f6e0bd512d3c55e97a3c951a0ff9509db3f485f77b9af._rids",
-        "ae38b3b84032b2684d0f6e0bd512d3c55e97a3c951a0ff9509db3f485f77b9af.tlbId",
-        "Heatmap.ds5..variable"
-       ]
-      }
-     },
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [
-        "data..Protein IDs"
-       ],
-       "rColumns": [
-        "data..Protein IDs"
-       ]
-      },
-      "rightRelation": {
-       "kind": "RenameRelation",
-       "id": "fed3c801-da2c-43cd-9576-8429e746d3de",
-       "relation": {
-        "kind": "CompositeRelation",
-        "id": "d103e00c-a4b2-4687-915a-d5f219396fdf",
-        "joinOperators": [
-         {
-          "kind": "JoinOperator",
-          "joinType": "",
-          "leftPair": {
-           "kind": "ColumnPair",
-           "lColumns": [
-            ".ri"
-           ],
-           "rColumns": [
-            "e62ad15a3474add8d700f61cc5dc058e1f8f635ae16321356f6aa39cb4541102._rids"
-           ]
-          },
-          "rightRelation": {
-           "kind": "SimpleRelation",
-           "id": "e62ad15a3474add8d700f61cc5dc058e1f8f635ae16321356f6aa39cb4541102",
-           "index": 0
-          }
-         }
-        ],
-        "mainRelation": {
-         "kind": "SimpleRelation",
-         "id": "24de03254006e52cbd91f78c142b804afd03ad4c2ca52f836e07a88146f00d40",
-         "index": 0
-        }
-       },
-       "inNames": [
-        ".ri",
-        "Heatmap.ds5.rorder",
-        "24de03254006e52cbd91f78c142b804afd03ad4c2ca52f836e07a88146f00d40._rids",
-        "24de03254006e52cbd91f78c142b804afd03ad4c2ca52f836e07a88146f00d40.tlbId",
-        "data..Protein IDs",
-        "e62ad15a3474add8d700f61cc5dc058e1f8f635ae16321356f6aa39cb4541102._rids",
-        "e62ad15a3474add8d700f61cc5dc058e1f8f635ae16321356f6aa39cb4541102.tlbId",
-        "data..Protein IDs"
-       ],
-       "outNames": [
-        ".ri",
-        "Heatmap.ds5.rorder",
-        "24de03254006e52cbd91f78c142b804afd03ad4c2ca52f836e07a88146f00d40._rids",
-        "24de03254006e52cbd91f78c142b804afd03ad4c2ca52f836e07a88146f00d40.tlbId",
-        "data..Protein IDs",
-        "e62ad15a3474add8d700f61cc5dc058e1f8f635ae16321356f6aa39cb4541102._rids",
-        "e62ad15a3474add8d700f61cc5dc058e1f8f635ae16321356f6aa39cb4541102.tlbId",
-        "Heatmap.ds5..Protein IDs"
-       ]
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "1345fed0-04ee-456d-a1bd-c8531f6ac660"
-    }
+    "kind": "Relation",
+    "id": "baabed17-e8c1-44fd-b795-f3712acd4a19"
    },
    "parentDataStepId": ""
   },
@@ -8507,7 +5851,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Input of a sub workflow.",
@@ -8541,7 +5885,7 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "",
@@ -8590,9 +5934,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37de5f117",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -8905,28 +6249,8 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "590cad07-1170-44e1-a9fb-b8a10894c0b2",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [],
-       "rColumns": []
-      },
-      "rightRelation": {
-       "kind": "SimpleRelation",
-       "id": "10dfbb11f59e6d45ec8896f70e53adc0d0e534823c379be092fd41478cc78b95",
-       "index": 0
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "19316bd1-3ecf-4173-9064-e7f6121148a8"
-    }
+    "kind": "Relation",
+    "id": "331357fb-523d-4b15-ba56-26c1a21199dc"
    },
    "parentDataStepId": ""
   },
@@ -8966,9 +6290,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "2f47d9ff13911ab52779eeb37ddcc11a",
+    "taskId": "",
     "taskState": {
-     "kind": "DoneState"
+     "kind": "InitState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -9344,36 +6668,16 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "CompositeRelation",
-    "id": "42bf74ab-09a9-41fd-b85c-7e7a40bda8a5",
-    "joinOperators": [
-     {
-      "kind": "JoinOperator",
-      "joinType": "",
-      "leftPair": {
-       "kind": "ColumnPair",
-       "lColumns": [],
-       "rColumns": []
-      },
-      "rightRelation": {
-       "kind": "SimpleRelation",
-       "id": "688ffd452834372cd3023494c98553ab24f2dd58f82e74a751e4c9c225d52f77",
-       "index": 0
-      }
-     }
-    ],
-    "mainRelation": {
-     "kind": "Relation",
-     "id": "c6b51318-585b-4a66-943e-f1685a0aa95a"
-    }
+    "kind": "Relation",
+    "id": "01e5029d-4d84-4c67-8a60-14ff0b91fe1d"
    },
    "parentDataStepId": ""
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": 350.0,
-  "y": -219.0
+  "x": 247.0,
+  "y": -101.0
  },
  "scale": 1.0
 }
